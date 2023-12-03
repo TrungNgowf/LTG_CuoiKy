@@ -22,14 +22,14 @@ public class HuntressAttack : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Time.time >= nextAttackTime)
-        {
-            if (Input.GetKeyDown(KeyCode.M))
-            {
-                Attack();
-                nextAttackTime = Time.time + 1f / stat.attackSpeed;
-            }
-        }
+        //if (Time.time >= nextAttackTime)
+        //{
+        //    if (Input.GetKeyDown(KeyCode.M))
+        //    {
+        //        Attack();
+        //        nextAttackTime = Time.time + 1f / stat.attackSpeed;
+        //    }
+        //}
 
     }
 
