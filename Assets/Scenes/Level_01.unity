@@ -529,7 +529,7 @@ Transform:
   m_GameObject: {fileID: 515126980}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.37, y: -1.63, z: 0.08384151}
+  m_LocalPosition: {x: 0.37, y: -0.67, z: 3.93}
   m_LocalScale: {x: 1.4117, y: 3.3052, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1207,7 +1207,6 @@ GameObject:
   - component: {fileID: 1000633616}
   - component: {fileID: 1000633615}
   - component: {fileID: 1000633621}
-  - component: {fileID: 1000633622}
   m_Layer: 0
   m_Name: Huntress
   m_TagString: Player
@@ -1224,7 +1223,7 @@ Transform:
   m_GameObject: {fileID: 1000633612}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.214, y: -2.322, z: 0}
+  m_LocalPosition: {x: -7.197, y: -2.353, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1436,19 +1435,6 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 0
---- !u!114 &1000633622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000633612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfbf039fbde2d354180a82de05530138, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 0}
   combo: 1
   isAtk: 0
 --- !u!1 &1024413487

@@ -9,6 +9,8 @@ public class HuntressAttack : MonoBehaviour
     private HuntressStats stat;
     public Transform attackPoint;
     public LayerMask enemyLayers;
+    public int comboIndex = 1;
+    public bool isAtk;
     float nextAttackTime = 0;
 
 
@@ -22,32 +24,43 @@ public class HuntressAttack : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        //if (Time.time >= nextAttackTime)
-        //{
-        //    if (Input.GetKeyDown(KeyCode.M))
-        //    {
-        //        Attack();
-        //        nextAttackTime = Time.time + 1f / stat.attackSpeed;
-        //    }
-        //}
-
+        Combo();
     }
 
     private void Attack()
     {
-        anim.SetTrigger("Attack1");
+        //detect enemies
+        Collider2D[] hittedEnemies = Physics2D.OverlapCircleAll(attackPoint.position, stat.attackRange, enemyLayers);
 
-        ////detect enemies
-        //Collider2D[] hittedEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-
-        ////deal damage
-        //foreach (Collider2D enemy in hittedEnemies)
-        //{
-        //}
+        //deal damage
+        foreach (Collider2D enemy in hittedEnemies)
+        {
+        }
     }
-    //private void OnDrawGizmos()
-    //{
-    //    if (attackPoint == null) return;
-    //    Gizmos.DrawWireSphere(attackPoint.position, attackRange);
-    //}
+    private void OnDrawGizmos()
+    {
+        if (attackPoint == null) return;
+        Gizmos.DrawWireSphere(attackPoint.position, stat.attackRange);
+    }
+    public void Combo()
+    {
+        if (Input.GetKeyDown(KeyCode.M) && !isAtk)
+        {
+            isAtk = true;
+            anim.SetTrigger("Attack" + comboIndex);
+        }
+    }
+    public void StartCombo()
+    {
+        isAtk = false;
+        if (comboIndex < 2)
+        {
+            comboIndex++;
+        }
+    }
+    public void FinishAnim()
+    {
+        isAtk = false;
+        comboIndex = 1;
+    }
 }
