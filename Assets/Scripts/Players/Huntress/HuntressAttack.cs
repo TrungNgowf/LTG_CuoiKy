@@ -6,19 +6,17 @@ using UnityEngine;
 public class HuntressAttack : MonoBehaviour
 {
     private Animator anim;
-    private HuntressStats stat;
+    public PlayerStats stat;
     public Transform attackPoint;
     public LayerMask enemyLayers;
     public int comboIndex = 1;
     public bool isAtk;
-    float nextAttackTime = 0;
-
 
     // Start is called before the first frame update
     private void Start()
     {
         anim = GetComponent<Animator>();
-        stat = GetComponent<HuntressStats>();
+        stat = GetComponent<PlayerStats>();
     }
 
     // Update is called once per frame
@@ -35,11 +33,14 @@ public class HuntressAttack : MonoBehaviour
         //deal damage
         foreach (Collider2D enemy in hittedEnemies)
         {
+            enemy.GetComponent<EnemyStats>().TakeDamage(stat.attackDamage);
         }
     }
     private void OnDrawGizmos()
     {
-        if (attackPoint == null) return;
+        if (attackPoint == null) {
+            return;
+        }
         Gizmos.DrawWireSphere(attackPoint.position, stat.attackRange);
     }
     public void Combo()
@@ -48,6 +49,7 @@ public class HuntressAttack : MonoBehaviour
         {
             isAtk = true;
             anim.SetTrigger("Attack" + comboIndex);
+            Attack();
         }
     }
     public void StartCombo()
