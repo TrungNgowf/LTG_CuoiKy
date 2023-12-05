@@ -9,7 +9,6 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] public float attackSpeed = 1.2f;
     [SerializeField] public float speedRun = 1.5f;
     [SerializeField] public float jumpForce = 3.4f;
-    [SerializeField] public float attackRange = 0.5f;
     float currentHealth;
     // Start is called before the first frame update
     void Start()

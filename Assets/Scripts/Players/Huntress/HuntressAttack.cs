@@ -7,7 +7,8 @@ public class HuntressAttack : MonoBehaviour
 {
     private Animator anim;
     public PlayerStats stat;
-    public Transform attackPoint;
+    public Vector3 attackOffset;
+    public float attackRange = 1f;
     public LayerMask enemyLayers;
     public int comboIndex = 1;
     public bool isAtk;
@@ -27,8 +28,11 @@ public class HuntressAttack : MonoBehaviour
 
     private void Attack()
     {
+        Vector3 pos = transform.position;
+        pos += transform.right * attackOffset.x;
+        pos += transform.up * attackOffset.y;
         //detect enemies
-        Collider2D[] hittedEnemies = Physics2D.OverlapCircleAll(attackPoint.position, stat.attackRange, enemyLayers);
+        Collider2D[] hittedEnemies = Physics2D.OverlapCircleAll(pos, attackRange, enemyLayers);
 
         //deal damage
         foreach (Collider2D enemy in hittedEnemies)
@@ -36,12 +40,13 @@ public class HuntressAttack : MonoBehaviour
             enemy.GetComponent<EnemyStats>().TakeDamage(stat.attackDamage);
         }
     }
-    private void OnDrawGizmos()
+    void OnDrawGizmosSelected()
     {
-        if (attackPoint == null) {
-            return;
-        }
-        Gizmos.DrawWireSphere(attackPoint.position, stat.attackRange);
+        Vector3 pos = transform.position;
+        pos += transform.right * attackOffset.x;
+        pos += transform.up * attackOffset.y;
+
+        Gizmos.DrawWireSphere(pos, attackRange);
     }
     public void Combo()
     {
