@@ -16,6 +16,7 @@ public class GodOfWindAttack : MonoBehaviour
     public LayerMask enemyLayers;
     public int comboIndex = 1;
     public bool isAtk;
+    public Collider2D atk3_area;
 
     // Start is called before the first frame update
     private void Start()
@@ -33,7 +34,7 @@ public class GodOfWindAttack : MonoBehaviour
     private void Attack1()
     {
         Vector3 pos = transform.position;
-        pos += transform.right * attack_01.x;
+        pos += transform.right * attack_01.x*transform.localScale.x;
         pos += transform.up * attack_01.y;
         //detect enemies
         Collider2D[] hittedEnemies = Physics2D.OverlapCircleAll(pos, attackRange1, enemyLayers);
@@ -47,7 +48,7 @@ public class GodOfWindAttack : MonoBehaviour
     private void Attack2()
     {
         Vector3 pos = transform.position;
-        pos += transform.right * attack_02.x;
+        pos += transform.right * attack_02.x * transform.localScale.x;
         pos += transform.up * attack_02.y;
         //detect enemies
         Collider2D[] hittedEnemies = Physics2D.OverlapCircleAll(pos, attackRange2, enemyLayers);
@@ -55,39 +56,21 @@ public class GodOfWindAttack : MonoBehaviour
         //deal damage
         foreach (Collider2D enemy in hittedEnemies)
         {
-            enemy.GetComponent<EnemyStats>().TakeDamage(stat.attackDamage);
-        }
-    }
-    private void Attack3()
-    {
-        Vector3 pos = transform.position;
-        pos += transform.right * attack_03.x;
-        pos += transform.up * attack_03.y;
-        //detect enemies
-        Collider2D[] hittedEnemies = Physics2D.OverlapCircleAll(pos, attackRange3, enemyLayers);
-
-        //deal damage
-        foreach (Collider2D enemy in hittedEnemies)
-        {
-            enemy.GetComponent<EnemyStats>().TakeDamage(stat.attackDamage);
+            enemy.GetComponent<EnemyStats>().TakeDamage(stat.attackDamage*1.1f);
         }
     }
     void OnDrawGizmosSelected()
     {
         Vector3 pos1 = transform.position;
-        pos1 += transform.right * attack_01.x;
+        pos1 += transform.right * attack_01.x * transform.localScale.x;
         pos1 += transform.up * attack_01.y;
         Gizmos.DrawWireSphere(pos1, attackRange1);
 
         Vector3 pos2 = transform.position;
-        pos2 += transform.right * attack_02.x;
+        pos2 += transform.right * attack_02.x * transform.localScale.x;
         pos2 += transform.up * attack_02.y;
         Gizmos.DrawWireSphere(pos2, attackRange2);
 
-        Vector3 pos3 = transform.position;
-        pos3 += transform.right * attack_03.x;
-        pos3 += transform.up * attack_03.y;
-        Gizmos.DrawWireSphere(pos3, attackRange3);
     }
     public void Combo()
     {
@@ -104,7 +87,7 @@ public class GodOfWindAttack : MonoBehaviour
                     Attack2();
                     break;
                 case 3:
-                    Attack3();
+                    //Attack3();
                     break;
             }
         }
@@ -125,5 +108,13 @@ public class GodOfWindAttack : MonoBehaviour
     public void setAttackActive()
     {
         isAtk = false;
+    }
+    public void setAtk3AreaActive()
+    {
+        atk3_area.GetComponent<Atk3Area>().gameObject.SetActive(true);
+    }
+    public void setAtk3AreaInActive()
+    {
+        atk3_area.GetComponent<Atk3Area>().gameObject.SetActive(false);
     }
 }

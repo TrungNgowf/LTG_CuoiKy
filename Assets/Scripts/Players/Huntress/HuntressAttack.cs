@@ -29,7 +29,7 @@ public class HuntressAttack : MonoBehaviour
     private void Attack()
     {
         Vector3 pos = transform.position;
-        pos += transform.right * attackOffset.x;
+        pos += transform.right * attackOffset.x * transform.localScale.x;
         pos += transform.up * attackOffset.y;
         //detect enemies
         Collider2D[] hittedEnemies = Physics2D.OverlapCircleAll(pos, attackRange, enemyLayers);
@@ -43,7 +43,7 @@ public class HuntressAttack : MonoBehaviour
     void OnDrawGizmosSelected()
     {
         Vector3 pos = transform.position;
-        pos += transform.right * attackOffset.x;
+        pos += transform.right * attackOffset.x * transform.localScale.x;
         pos += transform.up * attackOffset.y;
 
         Gizmos.DrawWireSphere(pos, attackRange);
@@ -69,5 +69,9 @@ public class HuntressAttack : MonoBehaviour
     {
         isAtk = false;
         comboIndex = 1;
+    }
+    public void setAttackActive()
+    {
+        isAtk = false;
     }
 }
