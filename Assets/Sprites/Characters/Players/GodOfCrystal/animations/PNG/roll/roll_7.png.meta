@@ -116,12 +116,12 @@ TextureImporter:
       name: roll_7_0
       rect:
         serializedVersion: 2
-        x: 116
-        y: 0
-        width: 47
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 117
+        y: 1
+        width: 45
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d450f597466b28445ad5c358b3ce1056
     internalID: 0
     vertices: []
     indices: 

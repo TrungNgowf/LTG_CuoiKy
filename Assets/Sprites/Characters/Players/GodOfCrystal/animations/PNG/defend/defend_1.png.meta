@@ -116,12 +116,12 @@ TextureImporter:
       name: defend_1_0
       rect:
         serializedVersion: 2
-        x: 129
-        y: 0
-        width: 44
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 130
+        y: 1
+        width: 42
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8f16a441e5203e24bafbfcc1f158f606
     internalID: 0
     vertices: []
     indices: 
