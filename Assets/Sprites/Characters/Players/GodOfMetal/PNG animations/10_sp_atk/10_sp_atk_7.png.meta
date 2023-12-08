@@ -112,7 +112,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -131,12 +131,12 @@ TextureImporter:
       name: 10_sp_atk_7_0
       rect:
         serializedVersion: 2
-        x: 62
-        y: 0
-        width: 41
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 63
+        y: 1
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -152,12 +152,12 @@ TextureImporter:
       name: 10_sp_atk_7_1
       rect:
         serializedVersion: 2
-        x: 87
-        y: 0
-        width: 35
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 88
+        y: 1
+        width: 33
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,12 +173,12 @@ TextureImporter:
       name: 10_sp_atk_7_2
       rect:
         serializedVersion: 2
-        x: 112
-        y: 0
-        width: 56
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 113
+        y: 1
+        width: 54
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: 10_sp_atk_7_3
       rect:
         serializedVersion: 2
-        x: 167
-        y: 0
-        width: 59
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 168
+        y: 1
+        width: 57
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: 10_sp_atk_7_4
       rect:
         serializedVersion: 2
-        x: 196
-        y: 0
-        width: 46
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 197
+        y: 1
+        width: 44
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: 10_sp_atk_7_5
       rect:
         serializedVersion: 2
-        x: 240
-        y: 0
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 241
+        y: 1
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,7 +256,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8878fca8df56a8540afbeccdb9b51d74
     internalID: 0
     vertices: []
     indices: 

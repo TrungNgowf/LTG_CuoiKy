@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -116,12 +116,12 @@ TextureImporter:
       name: 03_jump_13_0
       rect:
         serializedVersion: 2
-        x: 122
-        y: 5
-        width: 37
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 123
+        y: 6
+        width: 35
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ff20a1e877cf2e540acac63e967dc665
     internalID: 0
     vertices: []
     indices: 

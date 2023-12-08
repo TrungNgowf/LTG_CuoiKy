@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -116,12 +116,12 @@ TextureImporter:
       name: 2_atk_3_0
       rect:
         serializedVersion: 2
-        x: 116
-        y: 1
-        width: 44
-        height: 45
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 115
+        y: 0
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 72d0a58e2edc48a409c48a3e59994a60
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 

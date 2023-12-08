@@ -106,7 +106,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -125,12 +125,12 @@ TextureImporter:
       name: jump_full_18_0
       rect:
         serializedVersion: 2
-        x: 116
-        y: 1
-        width: 5
-        height: 5
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 115
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,12 +146,12 @@ TextureImporter:
       name: jump_full_18_1
       rect:
         serializedVersion: 2
-        x: 122
-        y: 4
-        width: 7
-        height: 6
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 121
+        y: 3
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -167,12 +167,12 @@ TextureImporter:
       name: jump_full_18_2
       rect:
         serializedVersion: 2
-        x: 124
-        y: 1
-        width: 45
-        height: 43
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 123
+        y: 0
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,12 +188,12 @@ TextureImporter:
       name: jump_full_18_3
       rect:
         serializedVersion: 2
-        x: 167
-        y: 3
-        width: 4
-        height: 5
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 166
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,7 +208,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bd6ec06bea647514e8a9438e88585936
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
