@@ -1,0 +1,4420 @@
+fileFormatVersion: 2
+guid: 1451715ffee457642be1b537aca284b3
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: crystal_mauler_free_v1.0_Frame_0
+    originalName: 
+    pivot: {x: 0.372093, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 419
+      y: 262
+      width: 43
+      height: 39
+    spriteID: 37107c5e437529141b60ab6d2a1600de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 419, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_1
+    originalName: 
+    pivot: {x: 0.372093, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 470
+      y: 262
+      width: 43
+      height: 39
+    spriteID: e0b07a48902f2e649a2831f1e324f914
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 470, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_2
+    originalName: 
+    pivot: {x: 0.372093, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 521
+      y: 262
+      width: 43
+      height: 39
+    spriteID: f91b3624d4ba0d14b961be3e609bd55d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 521, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_3
+    originalName: 
+    pivot: {x: 0.372093, y: -0.02631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 878
+      y: 262
+      width: 43
+      height: 38
+    spriteID: f18ed282672143345950272f1f5f65a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 878, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_4
+    originalName: 
+    pivot: {x: 0.372093, y: -0.02631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 929
+      y: 262
+      width: 43
+      height: 38
+    spriteID: 8a72b633649ba6545b0f07c9514f5f36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 929, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_5
+    originalName: 
+    pivot: {x: 0.372093, y: -0.02631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 477
+      width: 43
+      height: 38
+    spriteID: 2b0cb62f2b9fa3449ac37c1fda51292e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_6
+    originalName: 
+    pivot: {x: 0.372093, y: -0.02631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 150
+      y: 477
+      width: 43
+      height: 38
+    spriteID: 1ecad3e4c46f7294cb4616bb85c393b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 150, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_7
+    originalName: 
+    pivot: {x: 0.372093, y: -0.02631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 477
+      width: 43
+      height: 38
+    spriteID: 6329dc5f2f0631446bc9f2577926933a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_8
+    originalName: 
+    pivot: {x: 0.29999992, y: -0.022222223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 848
+      y: 362
+      width: 40
+      height: 45
+    spriteID: 4a3f52d6a1d6d1541a886fac3f8157ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 848, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_9
+    originalName: 
+    pivot: {x: 0.34883726, y: -0.06818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 539
+      y: 362
+      width: 43
+      height: 44
+    spriteID: 2cc34da7ba548e84db93533f93648c94
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 539, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_10
+    originalName: 
+    pivot: {x: 0.2820513, y: -0.022222223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 419
+      width: 39
+      height: 45
+    spriteID: 053abd4fe42045a4890a05fd1b3d6ebd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_11
+    originalName: 
+    pivot: {x: 0.2820513, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 245
+      y: 419
+      width: 39
+      height: 44
+    spriteID: 5f7e2fcdf2e4d084f93e946a4d274298
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 245, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_12
+    originalName: 
+    pivot: {x: 0.37777787, y: -0.022222223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 362
+      width: 45
+      height: 45
+    spriteID: 829e1361916920844bf6e4bf18a961d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_13
+    originalName: 
+    pivot: {x: 0.4166667, y: -0.02173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 362
+      width: 48
+      height: 46
+    spriteID: 7d3f265470af12d4d9d442fa81d39634
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_14
+    originalName: 
+    pivot: {x: 0.37777787, y: -0.022222223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 169
+      y: 362
+      width: 45
+      height: 45
+    spriteID: cfec985efbc474e4e82433baa56980dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_15
+    originalName: 
+    pivot: {x: 0.2820513, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 292
+      y: 419
+      width: 39
+      height: 44
+    spriteID: 7a2c24cb96c5a55458a0d3e75b8f3027
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 292, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_16
+    originalName: 
+    pivot: {x: 0.4102564, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 339
+      y: 419
+      width: 39
+      height: 44
+    spriteID: 2bc0cdddbd51a864fa4150c04ecf6172
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 339, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_17
+    originalName: 
+    pivot: {x: 0.4102564, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 386
+      y: 419
+      width: 39
+      height: 44
+    spriteID: c4cff89d9cb87ac4db5a92618e6e1c3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 386, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_18
+    originalName: 
+    pivot: {x: 0.4102564, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 433
+      y: 419
+      width: 39
+      height: 44
+    spriteID: 42ea39ba10669bb45ab6218f487b6398
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 433, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_19
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 693
+      y: 477
+      width: 38
+      height: 39
+    spriteID: ef6954d35666d2745b8cb655309995a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 693, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_20
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 739
+      y: 477
+      width: 38
+      height: 39
+    spriteID: 25f7bbc96eea0ce45bba08db4ae4dc0c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 739, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_21
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 785
+      y: 477
+      width: 38
+      height: 39
+    spriteID: 9e41f75db59681c46b71bb568cdd82c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 785, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_22
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 831
+      y: 477
+      width: 38
+      height: 39
+    spriteID: 20d2fda0b059d4343b885cd02acbdf4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 831, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_23
+    originalName: 
+    pivot: {x: 0.4102564, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 480
+      y: 419
+      width: 39
+      height: 44
+    spriteID: 357ad0b6d9b562b4ca67fada78fde645
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 480, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_24
+    originalName: 
+    pivot: {x: 0.4102564, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 419
+      width: 39
+      height: 44
+    spriteID: 9ad2b19966327b143bab21dfc987b300
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_25
+    originalName: 
+    pivot: {x: 0.4102564, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 574
+      y: 419
+      width: 39
+      height: 44
+    spriteID: eb0309123faf7f840a56dc1b2bd90e4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 574, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_26
+    originalName: 
+    pivot: {x: 0.4102564, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 621
+      y: 419
+      width: 39
+      height: 44
+    spriteID: 59f2dec675ea8e24a9e081d9a427d08d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 621, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_27
+    originalName: 
+    pivot: {x: 0.4102564, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 668
+      y: 419
+      width: 39
+      height: 44
+    spriteID: 280dbcb7e7f069742bc2f6876e62c593
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 668, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_28
+    originalName: 
+    pivot: {x: 0.4102564, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 715
+      y: 419
+      width: 39
+      height: 44
+    spriteID: d0da1ebea9740fa4f8ac3ac5291b41b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 715, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_29
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.046511628}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 477
+      width: 38
+      height: 43
+    spriteID: 9b07759713f5a0440a6454c20cc1fbfc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_30
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.07317073}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 980
+      y: 262
+      width: 38
+      height: 41
+    spriteID: 6ce0d88787f10084daecdc03085b562a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 980, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_31
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.102564104}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 877
+      y: 477
+      width: 38
+      height: 39
+    spriteID: fa2b635609850034f99546eabd7f6dd3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 877, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_32
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 923
+      y: 477
+      width: 38
+      height: 39
+    spriteID: 540fc4b2d1339f8469367cdef63ad685
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 923, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_33
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 969
+      y: 477
+      width: 38
+      height: 39
+    spriteID: bd9966f0ee5d68b4caa1842ff9c676a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 969, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_34
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 529
+      width: 38
+      height: 39
+    spriteID: 69c6a0dbee2cad344bb0cbc7cc80e283
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_35
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 529
+      width: 38
+      height: 39
+    spriteID: d3d96f35a4b45cb43ac453c5720e887c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_36
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 529
+      width: 38
+      height: 39
+    spriteID: fd7e738dbd57b0545ab17c40f5837b36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_37
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 529
+      width: 38
+      height: 39
+    spriteID: 63d72656bde5cdc4ba827693b8eb5a87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_38
+    originalName: 
+    pivot: {x: 0.51851845, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 759
+      y: 311
+      width: 54
+      height: 40
+    spriteID: 81ddb90ddaa6f0e46b68b2da8f3f8798
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 759, y: 311}
+  - name: crystal_mauler_free_v1.0_Frame_39
+    originalName: 
+    pivot: {x: 0.50909084, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 506
+      y: 311
+      width: 55
+      height: 43
+    spriteID: e1638c03fbcb4bb4596592ba23d1bb43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 506, y: 311}
+  - name: crystal_mauler_free_v1.0_Frame_40
+    originalName: 
+    pivot: {x: 0.49180323, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 311
+      width: 61
+      height: 43
+    spriteID: 233cfaaf3d5a81948a2b6191b76bdad1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 293, y: 311}
+  - name: crystal_mauler_free_v1.0_Frame_41
+    originalName: 
+    pivot: {x: 0.46478876, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 810
+      y: 95
+      width: 71
+      height: 43
+    spriteID: 7bf314b91a898904ea30065789394406
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 810, y: 95}
+  - name: crystal_mauler_free_v1.0_Frame_42
+    originalName: 
+    pivot: {x: 0.42222214, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 942
+      y: 311
+      width: 45
+      height: 43
+    spriteID: 03e4855ede6a97a4db802c9a5fa3f3e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 942, y: 311}
+  - name: crystal_mauler_free_v1.0_Frame_43
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 230
+      y: 529
+      width: 38
+      height: 39
+    spriteID: 88246fe3c1a5b584a963a4c0657ad631
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 230, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_44
+    originalName: 
+    pivot: {x: 0.4102564, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 762
+      y: 419
+      width: 39
+      height: 44
+    spriteID: 1fc2d037a5a4f594585ea530ccfbe4a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 762, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_45
+    originalName: 
+    pivot: {x: 0.4102564, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 809
+      y: 419
+      width: 39
+      height: 44
+    spriteID: f864f2240385fe54bb785df8be23028a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 809, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_46
+    originalName: 
+    pivot: {x: 0.4102564, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 856
+      y: 419
+      width: 39
+      height: 44
+    spriteID: bfbbf2b32267b3447b81f89f18f2c7ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 856, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_47
+    originalName: 
+    pivot: {x: 0.4102564, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 903
+      y: 419
+      width: 39
+      height: 44
+    spriteID: 567e6a6af88304e46b8ef73b1e08a99b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 903, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_48
+    originalName: 
+    pivot: {x: 0.4102564, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 950
+      y: 419
+      width: 39
+      height: 44
+    spriteID: 37639381b0d796d4fa3838e86f6d5387
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 950, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_49
+    originalName: 
+    pivot: {x: 0.4102564, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 477
+      width: 39
+      height: 44
+    spriteID: 08332de95d90c344a92be26268e96883
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_50
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 529
+      width: 34
+      height: 48
+    spriteID: debd036f3ce6d6f4a99fe2567015a7d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_51
+    originalName: 
+    pivot: {x: 0.4324324, y: -0.06818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 298
+      y: 477
+      width: 37
+      height: 44
+    spriteID: 549b85feec597254ab8605533b16f680
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 298, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 477
+      width: 40
+      height: 42
+    spriteID: b64608b580bfbbc41978110c58024fb8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_53
+    originalName: 
+    pivot: {x: 0.2678572, y: -0.03508772}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 671
+      y: 95
+      width: 56
+      height: 57
+    spriteID: 9df5a4ed8196a1e45adeaa1d4e59b390
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 671, y: 95}
+  - name: crystal_mauler_free_v1.0_Frame_54
+    originalName: 
+    pivot: {x: 0.2678572, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 632
+      y: 311
+      width: 56
+      height: 42
+    spriteID: d66e6c6ff6752d4499f754d7558b69d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 632, y: 311}
+  - name: crystal_mauler_free_v1.0_Frame_55
+    originalName: 
+    pivot: {x: 0.2727273, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 696
+      y: 311
+      width: 55
+      height: 42
+    spriteID: 3fc403413d43a7e4baa9117f4ab575d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 696, y: 311}
+  - name: crystal_mauler_free_v1.0_Frame_56
+    originalName: 
+    pivot: {x: 0.26415092, y: -0.3030303}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 788
+      y: 217
+      width: 53
+      height: 33
+    spriteID: ccdc4a61efb054e4b9886bb3f42b82fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 788, y: 217}
+  - name: crystal_mauler_free_v1.0_Frame_57
+    originalName: 
+    pivot: {x: 0.29999992, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 59
+      y: 419
+      width: 40
+      height: 44
+    spriteID: 4838776015b6d394791042f96cd63172
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 59, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_58
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 529
+      width: 38
+      height: 39
+    spriteID: 4b1843ac8b668b84396759ecb1ad7e82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_59
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 322
+      y: 529
+      width: 38
+      height: 39
+    spriteID: bb4bb1d345a3d0f4f82d119cdd332806
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 322, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_60
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 529
+      width: 38
+      height: 39
+    spriteID: 709230f1ffb660a49acf1ba55e2f11fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 368, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_61
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 414
+      y: 529
+      width: 38
+      height: 39
+    spriteID: 78d60c9d7968f0c46ad49657681fe6cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 414, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_62
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 529
+      width: 38
+      height: 39
+    spriteID: 877b42638a0c6264fadf5ca3c10cdd16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 460, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_63
+    originalName: 
+    pivot: {x: 0.39473692, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 506
+      y: 529
+      width: 38
+      height: 39
+    spriteID: 4761db5501276aa4fa02ff29697a62ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 506, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_64
+    originalName: 
+    pivot: {x: 0.51851845, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 821
+      y: 311
+      width: 54
+      height: 40
+    spriteID: f6530d7385b37b2419d19cd8dc5d82a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 821, y: 311}
+  - name: crystal_mauler_free_v1.0_Frame_65
+    originalName: 
+    pivot: {x: 0.50909084, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 569
+      y: 311
+      width: 55
+      height: 43
+    spriteID: 917431e421573ed4ba32dea5ae39bd0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 569, y: 311}
+  - name: crystal_mauler_free_v1.0_Frame_66
+    originalName: 
+    pivot: {x: 0.49180323, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 362
+      y: 311
+      width: 61
+      height: 43
+    spriteID: 7502764bb1d9a7140a7b8dff2a61da1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 362, y: 311}
+  - name: crystal_mauler_free_v1.0_Frame_67
+    originalName: 
+    pivot: {x: 0.46478876, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 889
+      y: 95
+      width: 71
+      height: 43
+    spriteID: f6c14dc2e96161b44a31836daf3eb8cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 889, y: 95}
+  - name: crystal_mauler_free_v1.0_Frame_68
+    originalName: 
+    pivot: {x: 0.42222214, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 324
+      y: 362
+      width: 45
+      height: 43
+    spriteID: 22546cb383a54bd438b13fa49237cdc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 324, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_69
+    originalName: 
+    pivot: {x: 0.38297874, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 690
+      y: 362
+      width: 47
+      height: 40
+    spriteID: 48aeba0f3a3cce049aed912d9f3abf9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 690, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_70
+    originalName: 
+    pivot: {x: 0.23999995, y: -0.03125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 849
+      y: 217
+      width: 50
+      height: 32
+    spriteID: df1d9598504ab844d80d2162344f0ec3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 849, y: 217}
+  - name: crystal_mauler_free_v1.0_Frame_71
+    originalName: 
+    pivot: {x: 0.21739122, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 223
+      width: 46
+      height: 29
+    spriteID: ceb9be1043b23a94c919d532a55f0c71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 288, y: 223}
+  - name: crystal_mauler_free_v1.0_Frame_72
+    originalName: 
+    pivot: {x: 0.3333333, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 223
+      width: 48
+      height: 29
+    spriteID: 50c5e60446dc4004dae1bf76d805b4ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 223}
+  - name: crystal_mauler_free_v1.0_Frame_73
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.03125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 928
+      y: 529
+      width: 33
+      height: 32
+    spriteID: 6d8b0d4c1e48d164d93dff8fe9159c2d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 928, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_74
+    originalName: 
+    pivot: {x: 0.6216216, y: -0.02631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 552
+      y: 529
+      width: 37
+      height: 38
+    spriteID: 2c2a571e92435c143ad31368bab02ee9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 552, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_75
+    originalName: 
+    pivot: {x: 0.6, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 377
+      y: 362
+      width: 45
+      height: 43
+    spriteID: b74ec0c99251fd4419157fcc2df5b290
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 377, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_76
+    originalName: 
+    pivot: {x: 0.34883726, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 572
+      y: 262
+      width: 43
+      height: 39
+    spriteID: 00ce0ab41a3d5534bae50b45d5120a50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 572, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_77
+    originalName: 
+    pivot: {x: 0.4999999, y: -0.02173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 419
+      width: 38
+      height: 46
+    spriteID: 2de9c945e6337424d84eb61ca9112c52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_78
+    originalName: 
+    pivot: {x: 0.59459466, y: -0.021276595}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 200
+      y: 419
+      width: 37
+      height: 47
+    spriteID: de3d594eeede9ad408ddafb1b0d16d83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 200, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_79
+    originalName: 
+    pivot: {x: 0.31249988, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 585
+      width: 32
+      height: 50
+    spriteID: 56656c2177fa46d47841b8dc43d033f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 585}
+  - name: crystal_mauler_free_v1.0_Frame_80
+    originalName: 
+    pivot: {x: 0.4029851, y: -0.020833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 95
+      width: 67
+      height: 48
+    spriteID: b51cd64feb9441d49bbd0161e66b11f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 95}
+  - name: crystal_mauler_free_v1.0_Frame_81
+    originalName: 
+    pivot: {x: 0.43749994, y: -0.024390243}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 262
+      width: 64
+      height: 41
+    spriteID: 8fe35f682850d71428e92cf09575e8cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 293, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_82
+    originalName: 
+    pivot: {x: 0.41791043, y: -0.02631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 431
+      y: 311
+      width: 67
+      height: 38
+    spriteID: 8385fc5a59431fe4f9f93d4628452b19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 431, y: 311}
+  - name: crystal_mauler_free_v1.0_Frame_83
+    originalName: 
+    pivot: {x: 0.60869557, y: -0.02631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 365
+      y: 262
+      width: 46
+      height: 38
+    spriteID: 834d804f57798a1468ce3a87300350ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 365, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_84
+    originalName: 
+    pivot: {x: 0.7000001, y: -0.02631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 481
+      y: 362
+      width: 50
+      height: 38
+    spriteID: b53288e4cbb2f904ebb5ef008ce9b10d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 481, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_85
+    originalName: 
+    pivot: {x: 0.7058824, y: -0.02631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 311
+      width: 51
+      height: 38
+    spriteID: a62315b813c23e74980118abfad29b28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 883, y: 311}
+  - name: crystal_mauler_free_v1.0_Frame_86
+    originalName: 
+    pivot: {x: 0.63636357, y: -0.022222223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 362
+      width: 44
+      height: 45
+    spriteID: 38995f6b3fb20bc4ea9474efa874a428
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 272, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_87
+    originalName: 
+    pivot: {x: 0.34042552, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 419
+      width: 47
+      height: 50
+    spriteID: eec9f4ca53422c644a6e56e249dcf26d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 419}
+  - name: crystal_mauler_free_v1.0_Frame_88
+    originalName: 
+    pivot: {x: 0.26666662, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 968
+      y: 95
+      width: 45
+      height: 53
+    spriteID: 12e3f93d6c0303247b275d6547e8b4be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 968, y: 95}
+  - name: crystal_mauler_free_v1.0_Frame_89
+    originalName: 
+    pivot: {x: 0.24999994, y: -0.020408163}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 362
+      width: 48
+      height: 49
+    spriteID: be62273b75ff1524480d6673fb1d7484
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_90
+    originalName: 
+    pivot: {x: 0.29268286, y: -0.02631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 343
+      y: 477
+      width: 41
+      height: 38
+    spriteID: 595f52431e084344a87a932f22aaee0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 343, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_91
+    originalName: 
+    pivot: {x: 0.5749999, y: -0.022222223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 896
+      y: 362
+      width: 40
+      height: 45
+    spriteID: bcc5967e7936e894ebf59ea82fa63268
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 896, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_92
+    originalName: 
+    pivot: {x: 0.6000001, y: -0.02173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 800
+      y: 362
+      width: 40
+      height: 46
+    spriteID: 702b612918dab634c8fbc1067aabcf48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 800, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_93
+    originalName: 
+    pivot: {x: 0.358209, y: -0.02173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 735
+      y: 95
+      width: 67
+      height: 46
+    spriteID: ad15adab6dc4fea41aaa84e260a2fde3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 735, y: 95}
+  - name: crystal_mauler_free_v1.0_Frame_94
+    originalName: 
+    pivot: {x: 0.27272722, y: -0.02173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 511
+      y: 95
+      width: 77
+      height: 46
+    spriteID: 2e2acc411578b7b4d86116e46a4786f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 511, y: 95}
+  - name: crystal_mauler_free_v1.0_Frame_95
+    originalName: 
+    pivot: {x: 0.22093019, y: -0.02173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 417
+      y: 95
+      width: 86
+      height: 46
+    spriteID: c469d395faea14846ac1c29679c0a448
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 417, y: 95}
+  - name: crystal_mauler_free_v1.0_Frame_96
+    originalName: 
+    pivot: {x: 0.21359226, y: -0.021276595}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 306
+      y: 95
+      width: 103
+      height: 47
+    spriteID: f260ee4d1c08c1b48a4024d06ca9ec06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 306, y: 95}
+  - name: crystal_mauler_free_v1.0_Frame_97
+    originalName: 
+    pivot: {x: 0.16071428, y: -0.016666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 378
+      y: 163
+      width: 112
+      height: 60
+    spriteID: 1375b257fd663f34aa9dd536217e4122
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 378, y: 163}
+  - name: crystal_mauler_free_v1.0_Frame_98
+    originalName: 
+    pivot: {x: 0.07258064, y: -0.015625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 163
+      width: 124
+      height: 64
+    spriteID: e54106ef6aa910742b3a355a99dd51a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 163}
+  - name: crystal_mauler_free_v1.0_Frame_99
+    originalName: 
+    pivot: {x: 0.031007769, y: -0.03125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 648
+      y: 220
+      width: 129
+      height: 32
+    spriteID: 5b6c765903196cf4790ca2fbea418d15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 648, y: 220}
+  - name: crystal_mauler_free_v1.0_Frame_100
+    originalName: 
+    pivot: {x: 0.031007769, y: -0.03125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 498
+      y: 217
+      width: 129
+      height: 32
+    spriteID: 866dd43c7ff4ace4a805fba497a255ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 498, y: 217}
+  - name: crystal_mauler_free_v1.0_Frame_101
+    originalName: 
+    pivot: {x: 0.02898552, y: -0.013513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 648
+      y: 4
+      width: 138
+      height: 74
+    spriteID: 2a4f2fced28065443bbbf9e03aef4b1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 648, y: 4}
+  - name: crystal_mauler_free_v1.0_Frame_102
+    originalName: 
+    pivot: {x: 0.028571444, y: -0.013888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 794
+      y: 4
+      width: 140
+      height: 72
+    spriteID: c7e43c8bae16c5747a4b126b6dc8b0b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 794, y: 4}
+  - name: crystal_mauler_free_v1.0_Frame_103
+    originalName: 
+    pivot: {x: 0.02898552, y: -0.016666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 95
+      width: 138
+      height: 60
+    spriteID: 28eb21e5354a3fb4fab463370c06e178
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 95}
+  - name: crystal_mauler_free_v1.0_Frame_104
+    originalName: 
+    pivot: {x: 0.028169027, y: -0.02173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 498
+      y: 163
+      width: 142
+      height: 46
+    spriteID: ee5b5ef1ace908a44bd4c3cb65f95926
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 498, y: 163}
+  - name: crystal_mauler_free_v1.0_Frame_105
+    originalName: 
+    pivot: {x: 0.07432433, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 150
+      y: 95
+      width: 148
+      height: 40
+    spriteID: 4f622f4eb40e5f048b48197b0fe67c2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 150, y: 95}
+  - name: crystal_mauler_free_v1.0_Frame_106
+    originalName: 
+    pivot: {x: 0.10000002, y: -0.02173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 788
+      y: 163
+      width: 130
+      height: 46
+    spriteID: 517cef4bdab423c458ac1e2fba2494c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 788, y: 163}
+  - name: crystal_mauler_free_v1.0_Frame_107
+    originalName: 
+    pivot: {x: 0.372093, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 623
+      y: 262
+      width: 43
+      height: 39
+    spriteID: 3651d8440dd1e3641bc914bf397494da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 623, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_108
+    originalName: 
+    pivot: {x: 0.372093, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 674
+      y: 262
+      width: 43
+      height: 39
+    spriteID: febca4734249a384aa96abed86b00f97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 674, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_109
+    originalName: 
+    pivot: {x: 0.68085104, y: -0.02631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 944
+      y: 362
+      width: 47
+      height: 38
+    spriteID: 9a7cf2edef71fc24eb68893351cb322f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 944, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_110
+    originalName: 
+    pivot: {x: 0.69135803, y: -0.010869565}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 262
+      width: 81
+      height: 92
+    spriteID: 90893769c78643947b6027169778aafd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_111
+    originalName: 
+    pivot: {x: 0.6704545, y: -0.010989011}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 163
+      width: 88
+      height: 91
+    spriteID: ed5b5ff24e549944d86bee2fb2adbb92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 163}
+  - name: crystal_mauler_free_v1.0_Frame_112
+    originalName: 
+    pivot: {x: 0.75862074, y: -0.014084507}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 926
+      y: 163
+      width: 58
+      height: 71
+    spriteID: bfd566defe99b264f8b53b30c6650f7f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 926, y: 163}
+  - name: crystal_mauler_free_v1.0_Frame_113
+    originalName: 
+    pivot: {x: 0.66666657, y: -0.020833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 362
+      width: 42
+      height: 48
+    spriteID: e29028222e2892f41bb2b7f3b2ad7af1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_114
+    originalName: 
+    pivot: {x: 0.68085104, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 745
+      y: 362
+      width: 47
+      height: 40
+    spriteID: 55c4c39e59fde834b9c39fd06e077033
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 745, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_115
+    originalName: 
+    pivot: {x: 0.2051282, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 942
+      y: 4
+      width: 78
+      height: 53
+    spriteID: 4c4bcfdb12c2ac34a8d606ef701f6968
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 942, y: 4}
+  - name: crystal_mauler_free_v1.0_Frame_116
+    originalName: 
+    pivot: {x: 0.08496733, y: -0.012048192}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 167
+      y: 4
+      width: 153
+      height: 83
+    spriteID: bd7152a53733855409359aab4af6bd82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 167, y: 4}
+  - name: crystal_mauler_free_v1.0_Frame_117
+    originalName: 
+    pivot: {x: 0.08387098, y: -0.012048192}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 155
+      height: 83
+    spriteID: 29c78ecf9832c40478ae078daf35f447
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: crystal_mauler_free_v1.0_Frame_118
+    originalName: 
+    pivot: {x: 0.08552633, y: -0.013513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 328
+      y: 4
+      width: 152
+      height: 74
+    spriteID: 5c29fd84645d5f04cac6c203ac507bc8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 4}
+  - name: crystal_mauler_free_v1.0_Frame_119
+    originalName: 
+    pivot: {x: 0.08552633, y: -0.013513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 488
+      y: 4
+      width: 152
+      height: 74
+    spriteID: b88ace7ecaf9f3c4e9ad5932a06266da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 488, y: 4}
+  - name: crystal_mauler_free_v1.0_Frame_120
+    originalName: 
+    pivot: {x: 0.09420291, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 163
+      width: 138
+      height: 52
+    spriteID: 4be7342b38f564341bfc9246e4be763b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 163}
+  - name: crystal_mauler_free_v1.0_Frame_121
+    originalName: 
+    pivot: {x: 0.09848487, y: -0.020408163}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 648
+      y: 163
+      width: 132
+      height: 49
+    spriteID: c067330a491ff1f4fa96987a48176a04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 648, y: 163}
+  - name: crystal_mauler_free_v1.0_Frame_122
+    originalName: 
+    pivot: {x: 0.372093, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 725
+      y: 262
+      width: 43
+      height: 39
+    spriteID: 633cb0e4a41223145aac0b89693c8dbf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 725, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_123
+    originalName: 
+    pivot: {x: 0.33333328, y: -0.022222223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 590
+      y: 362
+      width: 42
+      height: 45
+    spriteID: 9b371cab68371154ea375842eb32c4af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 590, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_124
+    originalName: 
+    pivot: {x: 0.38095236, y: -0.015873017}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 262
+      width: 42
+      height: 63
+    spriteID: 4b505ec8802273a439ec82a08e6c88c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 93, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_125
+    originalName: 
+    pivot: {x: 0.38095236, y: -0.015873017}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 262
+      width: 42
+      height: 63
+    spriteID: 9f0a014f3aa7c1142b8c7d150a68362c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_126
+    originalName: 
+    pivot: {x: 0.38095236, y: -0.015873017}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 193
+      y: 262
+      width: 42
+      height: 63
+    spriteID: eff75be2a31310a40b9002d304b84061
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 193, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_127
+    originalName: 
+    pivot: {x: 0.38095236, y: -0.015873017}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 262
+      width: 42
+      height: 63
+    spriteID: 7719cdefe7ccdee4691be5398a0d12a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_128
+    originalName: 
+    pivot: {x: 0.372093, y: -0.022222223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 430
+      y: 362
+      width: 43
+      height: 45
+    spriteID: 9a15a679e5299304ea1f43d8052740eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 430, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_129
+    originalName: 
+    pivot: {x: 0.5333333, y: -0.022222223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 681
+      y: 529
+      width: 30
+      height: 45
+    spriteID: 39ce7e51f35597e49a8415447e38310b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 681, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_130
+    originalName: 
+    pivot: {x: 0.33333328, y: -0.022222223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 362
+      width: 42
+      height: 45
+    spriteID: ab07524225cd944478aff8bd326435bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 640, y: 362}
+  - name: crystal_mauler_free_v1.0_Frame_131
+    originalName: 
+    pivot: {x: 0.372093, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 776
+      y: 262
+      width: 43
+      height: 39
+    spriteID: a468e6c661fe5fd49b071a50061e067e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 776, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_132
+    originalName: 
+    pivot: {x: 0.2647059, y: -0.024390243}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 597
+      y: 529
+      width: 34
+      height: 41
+    spriteID: b1a01b0ad1d94804d93be4c663f3f11e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 597, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_133
+    originalName: 
+    pivot: {x: 0.2647059, y: -0.024390243}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 639
+      y: 529
+      width: 34
+      height: 41
+    spriteID: 588f23c7f1a2b324aaf3b7a4a58a51e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 639, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_134
+    originalName: 
+    pivot: {x: 0.51612896, y: -0.024390243}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 805
+      y: 529
+      width: 31
+      height: 41
+    spriteID: adce059c87b73e941af7f9c70a022882
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 805, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_135
+    originalName: 
+    pivot: {x: 0.5312501, y: -0.024390243}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 719
+      y: 529
+      width: 32
+      height: 41
+    spriteID: 8d09cd760bac00b44a937d69fc7e4c22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 719, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_136
+    originalName: 
+    pivot: {x: 0.51612896, y: -0.024390243}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 844
+      y: 529
+      width: 31
+      height: 41
+    spriteID: 0424aa8e309f21f47a8a0aed695fba88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 844, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_137
+    originalName: 
+    pivot: {x: 0.4210526, y: -0.024390243}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 392
+      y: 477
+      width: 38
+      height: 41
+    spriteID: 8923cbd5b29eaa8498cbec3ec1c34a80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 392, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_138
+    originalName: 
+    pivot: {x: 0.372093, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 827
+      y: 262
+      width: 43
+      height: 39
+    spriteID: 3e5d2db40d943214bb51a9efce44d0f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 827, y: 262}
+  - name: crystal_mauler_free_v1.0_Frame_139
+    originalName: 
+    pivot: {x: 0.3023256, y: -0.028571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 438
+      y: 477
+      width: 43
+      height: 35
+    spriteID: aabfd1e80aa69994298d0fd20307294c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 438, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_140
+    originalName: 
+    pivot: {x: 0.3023256, y: -0.028571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 489
+      y: 477
+      width: 43
+      height: 35
+    spriteID: 64592bd01356afa4d96d1550887a6058
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 489, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_141
+    originalName: 
+    pivot: {x: 0.3023256, y: -0.028571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 540
+      y: 477
+      width: 43
+      height: 35
+    spriteID: 5d74a420cce796e4abb542e14b10b1bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 540, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_142
+    originalName: 
+    pivot: {x: 0.3023256, y: -0.028571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 591
+      y: 477
+      width: 43
+      height: 35
+    spriteID: 35cf38f162315704591331b2c37198a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 591, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_143
+    originalName: 
+    pivot: {x: 0.3023256, y: -0.028571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 642
+      y: 477
+      width: 43
+      height: 35
+    spriteID: a0f6f11fe1c75f24e8369e696b91bef6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 642, y: 477}
+  - name: crystal_mauler_free_v1.0_Frame_144
+    originalName: 
+    pivot: {x: 0.2631578, y: -0.029411765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 759
+      y: 529
+      width: 38
+      height: 34
+    spriteID: a07e2c8bf2465e441864d5b5c38fca34
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 759, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_145
+    originalName: 
+    pivot: {x: 0.27027017, y: -0.030303031}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 529
+      width: 37
+      height: 33
+    spriteID: 4b921576d9d15b745b0ca20c46165925
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 883, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_146
+    originalName: 
+    pivot: {x: 0.27777767, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 969
+      y: 529
+      width: 36
+      height: 24
+    spriteID: e7abcf8837467694eb54a9490057727b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 969, y: 529}
+  - name: crystal_mauler_free_v1.0_Frame_147
+    originalName: 
+    pivot: {x: 0.22727264, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 969
+      y: 561
+      width: 44
+      height: 12
+    spriteID: e42ed376c936d0d48a2043926f95ffa8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 969, y: 561}
+  - name: crystal_mauler_free_v1.0_Frame_148
+    originalName: 
+    pivot: {x: 0.20370373, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 235
+      width: 54
+      height: 12
+    spriteID: 855133b631c56b541a1c746bd5aa1f0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 235}
+  - name: crystal_mauler_free_v1.0_Frame_149
+    originalName: 
+    pivot: {x: 0.2, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 378
+      y: 231
+      width: 55
+      height: 12
+    spriteID: 7aa9c097618ab3949bf5efafc634eb9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 378, y: 231}
+  - name: crystal_mauler_free_v1.0_Frame_150
+    originalName: 
+    pivot: {x: 0.21311478, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 926
+      y: 242
+      width: 61
+      height: 12
+    spriteID: 45c9a9fffe45c8049b7a171d3b1055af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 926, y: 242}
+  - name: crystal_mauler_free_v1.0_Frame_151
+    originalName: 
+    pivot: {x: 0.2253521, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 942
+      y: 65
+      width: 71
+      height: 12
+    spriteID: cb67b18874b7d4e4ba99582277d8584c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 942, y: 65}
+  - name: crystal_mauler_free_v1.0_Frame_152
+    originalName: 
+    pivot: {x: 0.22727264, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 441
+      y: 231
+      width: 44
+      height: 12
+    spriteID: 64583314806061f4796f005c02459a3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 441, y: 231}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -716222886
+    name: crystal_mauler_free_v1.0
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: crystal_mauler_free_v1.0_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 128
+        y: 1
+        width: 43
+        height: 39
+      spriteId: 37107c5e437529141b60ab6d2a1600de
+    - name: crystal_mauler_free_v1.0_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 128
+        y: 1
+        width: 43
+        height: 39
+      spriteId: e0b07a48902f2e649a2831f1e324f914
+    - name: crystal_mauler_free_v1.0_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 128
+        y: 1
+        width: 43
+        height: 39
+      spriteId: f91b3624d4ba0d14b961be3e609bd55d
+    - name: crystal_mauler_free_v1.0_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 128
+        y: 1
+        width: 43
+        height: 38
+      spriteId: f18ed282672143345950272f1f5f65a0
+    - name: crystal_mauler_free_v1.0_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 128
+        y: 1
+        width: 43
+        height: 38
+      spriteId: 8a72b633649ba6545b0f07c9514f5f36
+    - name: crystal_mauler_free_v1.0_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 128
+        y: 1
+        width: 43
+        height: 38
+      spriteId: 2b0cb62f2b9fa3449ac37c1fda51292e
+    - name: crystal_mauler_free_v1.0_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 128
+        y: 1
+        width: 43
+        height: 38
+      spriteId: 1ecad3e4c46f7294cb4616bb85c393b3
+    - name: crystal_mauler_free_v1.0_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 128
+        y: 1
+        width: 43
+        height: 38
+      spriteId: 6329dc5f2f0631446bc9f2577926933a
+    - name: crystal_mauler_free_v1.0_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 132
+        y: 1
+        width: 40
+        height: 45
+      spriteId: 4a3f52d6a1d6d1541a886fac3f8157ff
+    - name: crystal_mauler_free_v1.0_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 129
+        y: 3
+        width: 43
+        height: 44
+      spriteId: 2cc34da7ba548e84db93533f93648c94
+    - name: crystal_mauler_free_v1.0_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 133
+        y: 1
+        width: 39
+        height: 45
+      spriteId: 053abd4fe42045a4890a05fd1b3d6ebd
+    - name: crystal_mauler_free_v1.0_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 133
+        y: 1
+        width: 39
+        height: 44
+      spriteId: 5f7e2fcdf2e4d084f93e946a4d274298
+    - name: crystal_mauler_free_v1.0_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 127
+        y: 1
+        width: 45
+        height: 45
+      spriteId: 829e1361916920844bf6e4bf18a961d5
+    - name: crystal_mauler_free_v1.0_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 124
+        y: 1
+        width: 48
+        height: 46
+      spriteId: 7d3f265470af12d4d9d442fa81d39634
+    - name: crystal_mauler_free_v1.0_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 127
+        y: 1
+        width: 45
+        height: 45
+      spriteId: cfec985efbc474e4e82433baa56980dd
+    - name: crystal_mauler_free_v1.0_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 133
+        y: 1
+        width: 39
+        height: 44
+      spriteId: 7a2c24cb96c5a55458a0d3e75b8f3027
+    - name: crystal_mauler_free_v1.0_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 128
+        y: 1
+        width: 39
+        height: 44
+      spriteId: 2bc0cdddbd51a864fa4150c04ecf6172
+    - name: crystal_mauler_free_v1.0_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 128
+        y: 1
+        width: 39
+        height: 44
+      spriteId: c4cff89d9cb87ac4db5a92618e6e1c3e
+    - name: crystal_mauler_free_v1.0_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 128
+        y: 1
+        width: 39
+        height: 44
+      spriteId: 42ea39ba10669bb45ab6218f487b6398
+    - name: crystal_mauler_free_v1.0_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 129
+        y: 3
+        width: 38
+        height: 39
+      spriteId: ef6954d35666d2745b8cb655309995a2
+    - name: crystal_mauler_free_v1.0_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 129
+        y: 3
+        width: 38
+        height: 39
+      spriteId: 25f7bbc96eea0ce45bba08db4ae4dc0c
+    - name: crystal_mauler_free_v1.0_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 129
+        y: 3
+        width: 38
+        height: 39
+      spriteId: 9e41f75db59681c46b71bb568cdd82c9
+    - name: crystal_mauler_free_v1.0_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 126
+        y: 1
+        width: 38
+        height: 39
+      spriteId: 20d2fda0b059d4343b885cd02acbdf4d
+    - name: crystal_mauler_free_v1.0_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 128
+        y: 1
+        width: 39
+        height: 44
+      spriteId: 357ad0b6d9b562b4ca67fada78fde645
+    - name: crystal_mauler_free_v1.0_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 128
+        y: 1
+        width: 39
+        height: 44
+      spriteId: 9ad2b19966327b143bab21dfc987b300
+    - name: crystal_mauler_free_v1.0_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 128
+        y: 1
+        width: 39
+        height: 44
+      spriteId: eb0309123faf7f840a56dc1b2bd90e4c
+    - name: crystal_mauler_free_v1.0_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 128
+        y: 1
+        width: 39
+        height: 44
+      spriteId: 59f2dec675ea8e24a9e081d9a427d08d
+    - name: crystal_mauler_free_v1.0_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 128
+        y: 1
+        width: 39
+        height: 44
+      spriteId: 280dbcb7e7f069742bc2f6876e62c593
+    - name: crystal_mauler_free_v1.0_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 128
+        y: 1
+        width: 39
+        height: 44
+      spriteId: d0da1ebea9740fa4f8ac3ac5291b41b0
+    - name: crystal_mauler_free_v1.0_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 129
+        y: 2
+        width: 38
+        height: 43
+      spriteId: 9b07759713f5a0440a6454c20cc1fbfc
+    - name: crystal_mauler_free_v1.0_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 129
+        y: 3
+        width: 38
+        height: 41
+      spriteId: 6ce0d88787f10084daecdc03085b562a
+    - name: crystal_mauler_free_v1.0_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 129
+        y: 4
+        width: 38
+        height: 39
+      spriteId: fa2b635609850034f99546eabd7f6dd3
+    - name: crystal_mauler_free_v1.0_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 129
+        y: 3
+        width: 38
+        height: 39
+      spriteId: 540fc4b2d1339f8469367cdef63ad685
+    - name: crystal_mauler_free_v1.0_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 129
+        y: 3
+        width: 38
+        height: 39
+      spriteId: bd9966f0ee5d68b4caa1842ff9c676a4
+    - name: crystal_mauler_free_v1.0_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 129
+        y: 3
+        width: 38
+        height: 39
+      spriteId: 69c6a0dbee2cad344bb0cbc7cc80e283
+    - name: crystal_mauler_free_v1.0_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 129
+        y: 3
+        width: 38
+        height: 39
+      spriteId: d3d96f35a4b45cb43ac453c5720e887c
+    - name: crystal_mauler_free_v1.0_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 129
+        y: 3
+        width: 38
+        height: 39
+      spriteId: fd7e738dbd57b0545ab17c40f5837b36
+    - name: crystal_mauler_free_v1.0_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 129
+        y: 3
+        width: 38
+        height: 39
+      spriteId: 63d72656bde5cdc4ba827693b8eb5a87
+    - name: crystal_mauler_free_v1.0_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 116
+        y: 1
+        width: 54
+        height: 40
+      spriteId: 81ddb90ddaa6f0e46b68b2da8f3f8798
+    - name: crystal_mauler_free_v1.0_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 116
+        y: 1
+        width: 55
+        height: 43
+      spriteId: e1638c03fbcb4bb4596592ba23d1bb43
+    - name: crystal_mauler_free_v1.0_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 114
+        y: 1
+        width: 61
+        height: 43
+      spriteId: 233cfaaf3d5a81948a2b6191b76bdad1
+    - name: crystal_mauler_free_v1.0_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 111
+        y: 1
+        width: 71
+        height: 43
+      spriteId: 7bf314b91a898904ea30065789394406
+    - name: crystal_mauler_free_v1.0_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 125
+        y: 1
+        width: 45
+        height: 43
+      spriteId: 03e4855ede6a97a4db802c9a5fa3f3e3
+    - name: crystal_mauler_free_v1.0_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 126
+        y: 1
+        width: 38
+        height: 39
+      spriteId: 88246fe3c1a5b584a963a4c0657ad631
+    - name: crystal_mauler_free_v1.0_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 128
+        y: 1
+        width: 39
+        height: 44
+      spriteId: 1fc2d037a5a4f594585ea530ccfbe4a4
+    - name: crystal_mauler_free_v1.0_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 128
+        y: 1
+        width: 39
+        height: 44
+      spriteId: f864f2240385fe54bb785df8be23028a
+    - name: crystal_mauler_free_v1.0_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 128
+        y: 1
+        width: 39
+        height: 44
+      spriteId: bfbbf2b32267b3447b81f89f18f2c7ba
+    - name: crystal_mauler_free_v1.0_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 128
+        y: 1
+        width: 39
+        height: 44
+      spriteId: 567e6a6af88304e46b8ef73b1e08a99b
+    - name: crystal_mauler_free_v1.0_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 128
+        y: 1
+        width: 39
+        height: 44
+      spriteId: 37639381b0d796d4fa3838e86f6d5387
+    - name: crystal_mauler_free_v1.0_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 128
+        y: 1
+        width: 39
+        height: 44
+      spriteId: 08332de95d90c344a92be26268e96883
+    - name: crystal_mauler_free_v1.0_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 128
+        y: 2
+        width: 34
+        height: 48
+      spriteId: debd036f3ce6d6f4a99fe2567015a7d2
+    - name: crystal_mauler_free_v1.0_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 128
+        y: 3
+        width: 37
+        height: 44
+      spriteId: 549b85feec597254ab8605533b16f680
+    - name: crystal_mauler_free_v1.0_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 124
+        y: 3
+        width: 40
+        height: 42
+      spriteId: b64608b580bfbbc41978110c58024fb8
+    - name: crystal_mauler_free_v1.0_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 129
+        y: 2
+        width: 56
+        height: 57
+      spriteId: 9df5a4ed8196a1e45adeaa1d4e59b390
+    - name: crystal_mauler_free_v1.0_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 129
+        y: 2
+        width: 56
+        height: 42
+      spriteId: d66e6c6ff6752d4499f754d7558b69d2
+    - name: crystal_mauler_free_v1.0_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 129
+        y: 2
+        width: 55
+        height: 42
+      spriteId: 3fc403413d43a7e4baa9117f4ab575d1
+    - name: crystal_mauler_free_v1.0_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 130
+        y: 10
+        width: 53
+        height: 33
+      spriteId: ccdc4a61efb054e4b9886bb3f42b82fe
+    - name: crystal_mauler_free_v1.0_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 132
+        y: 8
+        width: 40
+        height: 44
+      spriteId: 4838776015b6d394791042f96cd63172
+    - name: crystal_mauler_free_v1.0_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 129
+        y: 3
+        width: 38
+        height: 39
+      spriteId: 4b1843ac8b668b84396759ecb1ad7e82
+    - name: crystal_mauler_free_v1.0_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 129
+        y: 3
+        width: 38
+        height: 39
+      spriteId: bb4bb1d345a3d0f4f82d119cdd332806
+    - name: crystal_mauler_free_v1.0_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 129
+        y: 3
+        width: 38
+        height: 39
+      spriteId: 709230f1ffb660a49acf1ba55e2f11fc
+    - name: crystal_mauler_free_v1.0_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 129
+        y: 3
+        width: 38
+        height: 39
+      spriteId: 78d60c9d7968f0c46ad49657681fe6cb
+    - name: crystal_mauler_free_v1.0_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 129
+        y: 3
+        width: 38
+        height: 39
+      spriteId: 877b42638a0c6264fadf5ca3c10cdd16
+    - name: crystal_mauler_free_v1.0_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 129
+        y: 3
+        width: 38
+        height: 39
+      spriteId: 4761db5501276aa4fa02ff29697a62ba
+    - name: crystal_mauler_free_v1.0_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 116
+        y: 1
+        width: 54
+        height: 40
+      spriteId: f6530d7385b37b2419d19cd8dc5d82a8
+    - name: crystal_mauler_free_v1.0_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 116
+        y: 1
+        width: 55
+        height: 43
+      spriteId: 917431e421573ed4ba32dea5ae39bd0d
+    - name: crystal_mauler_free_v1.0_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 114
+        y: 1
+        width: 61
+        height: 43
+      spriteId: 7502764bb1d9a7140a7b8dff2a61da1d
+    - name: crystal_mauler_free_v1.0_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 111
+        y: 1
+        width: 71
+        height: 43
+      spriteId: f6c14dc2e96161b44a31836daf3eb8cc
+    - name: crystal_mauler_free_v1.0_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 125
+        y: 1
+        width: 45
+        height: 43
+      spriteId: 22546cb383a54bd438b13fa49237cdc5
+    - name: crystal_mauler_free_v1.0_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 126
+        y: 1
+        width: 47
+        height: 40
+      spriteId: 48aeba0f3a3cce049aed912d9f3abf9d
+    - name: crystal_mauler_free_v1.0_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 132
+        y: 1
+        width: 50
+        height: 32
+      spriteId: df1d9598504ab844d80d2162344f0ec3
+    - name: crystal_mauler_free_v1.0_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 134
+        y: 1
+        width: 46
+        height: 29
+      spriteId: ceb9be1043b23a94c919d532a55f0c71
+    - name: crystal_mauler_free_v1.0_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 128
+        y: 1
+        width: 48
+        height: 29
+      spriteId: 50c5e60446dc4004dae1bf76d805b4ae
+    - name: crystal_mauler_free_v1.0_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 126
+        y: 1
+        width: 33
+        height: 32
+      spriteId: 6d8b0d4c1e48d164d93dff8fe9159c2d
+    - name: crystal_mauler_free_v1.0_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 121
+        y: 1
+        width: 37
+        height: 38
+      spriteId: 2c2a571e92435c143ad31368bab02ee9
+    - name: crystal_mauler_free_v1.0_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 117
+        y: 1
+        width: 45
+        height: 43
+      spriteId: b74ec0c99251fd4419157fcc2df5b290
+    - name: crystal_mauler_free_v1.0_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 129
+        y: 1
+        width: 43
+        height: 39
+      spriteId: 00ce0ab41a3d5534bae50b45d5120a50
+    - name: crystal_mauler_free_v1.0_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 125
+        y: 1
+        width: 38
+        height: 46
+      spriteId: 2de9c945e6337424d84eb61ca9112c52
+    - name: crystal_mauler_free_v1.0_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 122
+        y: 1
+        width: 37
+        height: 47
+      spriteId: de3d594eeede9ad408ddafb1b0d16d83
+    - name: crystal_mauler_free_v1.0_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 134
+        y: 1
+        width: 32
+        height: 50
+      spriteId: 56656c2177fa46d47841b8dc43d033f6
+    - name: crystal_mauler_free_v1.0_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 117
+        y: 1
+        width: 67
+        height: 48
+      spriteId: b51cd64feb9441d49bbd0161e66b11f2
+    - name: crystal_mauler_free_v1.0_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 116
+        y: 1
+        width: 64
+        height: 41
+      spriteId: 8fe35f682850d71428e92cf09575e8cc
+    - name: crystal_mauler_free_v1.0_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 116
+        y: 1
+        width: 67
+        height: 38
+      spriteId: 8385fc5a59431fe4f9f93d4628452b19
+    - name: crystal_mauler_free_v1.0_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 116
+        y: 1
+        width: 46
+        height: 38
+      spriteId: 834d804f57798a1468ce3a87300350ef
+    - name: crystal_mauler_free_v1.0_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 109
+        y: 1
+        width: 50
+        height: 38
+      spriteId: b53288e4cbb2f904ebb5ef008ce9b10d
+    - name: crystal_mauler_free_v1.0_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 108
+        y: 1
+        width: 51
+        height: 38
+      spriteId: a62315b813c23e74980118abfad29b28
+    - name: crystal_mauler_free_v1.0_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 116
+        y: 1
+        width: 44
+        height: 45
+      spriteId: 38995f6b3fb20bc4ea9474efa874a428
+    - name: crystal_mauler_free_v1.0_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 128
+        y: 1
+        width: 47
+        height: 50
+      spriteId: eec9f4ca53422c644a6e56e249dcf26d
+    - name: crystal_mauler_free_v1.0_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 132
+        y: 1
+        width: 45
+        height: 53
+      spriteId: 12e3f93d6c0303247b275d6547e8b4be
+    - name: crystal_mauler_free_v1.0_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 132
+        y: 1
+        width: 48
+        height: 49
+      spriteId: be62273b75ff1524480d6673fb1d7484
+    - name: crystal_mauler_free_v1.0_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 132
+        y: 1
+        width: 41
+        height: 38
+      spriteId: 595f52431e084344a87a932f22aaee0d
+    - name: crystal_mauler_free_v1.0_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 121
+        y: 1
+        width: 40
+        height: 45
+      spriteId: bcc5967e7936e894ebf59ea82fa63268
+    - name: crystal_mauler_free_v1.0_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 120
+        y: 1
+        width: 40
+        height: 46
+      spriteId: 702b612918dab634c8fbc1067aabcf48
+    - name: crystal_mauler_free_v1.0_Frame_93
+      frameIndex: 93
+      cellRect:
+        x: 120
+        y: 1
+        width: 67
+        height: 46
+      spriteId: ad15adab6dc4fea41aaa84e260a2fde3
+    - name: crystal_mauler_free_v1.0_Frame_94
+      frameIndex: 94
+      cellRect:
+        x: 123
+        y: 1
+        width: 77
+        height: 46
+      spriteId: 2e2acc411578b7b4d86116e46a4786f6
+    - name: crystal_mauler_free_v1.0_Frame_95
+      frameIndex: 95
+      cellRect:
+        x: 125
+        y: 1
+        width: 86
+        height: 46
+      spriteId: c469d395faea14846ac1c29679c0a448
+    - name: crystal_mauler_free_v1.0_Frame_96
+      frameIndex: 96
+      cellRect:
+        x: 122
+        y: 1
+        width: 103
+        height: 47
+      spriteId: f260ee4d1c08c1b48a4024d06ca9ec06
+    - name: crystal_mauler_free_v1.0_Frame_97
+      frameIndex: 97
+      cellRect:
+        x: 126
+        y: 1
+        width: 112
+        height: 60
+      spriteId: 1375b257fd663f34aa9dd536217e4122
+    - name: crystal_mauler_free_v1.0_Frame_98
+      frameIndex: 98
+      cellRect:
+        x: 135
+        y: 1
+        width: 124
+        height: 64
+      spriteId: e54106ef6aa910742b3a355a99dd51a7
+    - name: crystal_mauler_free_v1.0_Frame_99
+      frameIndex: 99
+      cellRect:
+        x: 140
+        y: 1
+        width: 129
+        height: 32
+      spriteId: 5b6c765903196cf4790ca2fbea418d15
+    - name: crystal_mauler_free_v1.0_Frame_100
+      frameIndex: 100
+      cellRect:
+        x: 140
+        y: 1
+        width: 129
+        height: 32
+      spriteId: 866dd43c7ff4ace4a805fba497a255ec
+    - name: crystal_mauler_free_v1.0_Frame_101
+      frameIndex: 101
+      cellRect:
+        x: 140
+        y: 1
+        width: 138
+        height: 74
+      spriteId: 2a4f2fced28065443bbbf9e03aef4b1c
+    - name: crystal_mauler_free_v1.0_Frame_102
+      frameIndex: 102
+      cellRect:
+        x: 140
+        y: 1
+        width: 140
+        height: 72
+      spriteId: c7e43c8bae16c5747a4b126b6dc8b0b6
+    - name: crystal_mauler_free_v1.0_Frame_103
+      frameIndex: 103
+      cellRect:
+        x: 140
+        y: 1
+        width: 138
+        height: 60
+      spriteId: 28eb21e5354a3fb4fab463370c06e178
+    - name: crystal_mauler_free_v1.0_Frame_104
+      frameIndex: 104
+      cellRect:
+        x: 140
+        y: 1
+        width: 142
+        height: 46
+      spriteId: ee5b5ef1ace908a44bd4c3cb65f95926
+    - name: crystal_mauler_free_v1.0_Frame_105
+      frameIndex: 105
+      cellRect:
+        x: 133
+        y: 1
+        width: 148
+        height: 40
+      spriteId: 4f622f4eb40e5f048b48197b0fe67c2f
+    - name: crystal_mauler_free_v1.0_Frame_106
+      frameIndex: 106
+      cellRect:
+        x: 131
+        y: 1
+        width: 130
+        height: 46
+      spriteId: 517cef4bdab423c458ac1e2fba2494c9
+    - name: crystal_mauler_free_v1.0_Frame_107
+      frameIndex: 107
+      cellRect:
+        x: 128
+        y: 1
+        width: 43
+        height: 39
+      spriteId: 3651d8440dd1e3641bc914bf397494da
+    - name: crystal_mauler_free_v1.0_Frame_108
+      frameIndex: 108
+      cellRect:
+        x: 128
+        y: 1
+        width: 43
+        height: 39
+      spriteId: febca4734249a384aa96abed86b00f97
+    - name: crystal_mauler_free_v1.0_Frame_109
+      frameIndex: 109
+      cellRect:
+        x: 112
+        y: 1
+        width: 47
+        height: 38
+      spriteId: 9a7cf2edef71fc24eb68893351cb322f
+    - name: crystal_mauler_free_v1.0_Frame_110
+      frameIndex: 110
+      cellRect:
+        x: 88
+        y: 1
+        width: 81
+        height: 92
+      spriteId: 90893769c78643947b6027169778aafd
+    - name: crystal_mauler_free_v1.0_Frame_111
+      frameIndex: 111
+      cellRect:
+        x: 85
+        y: 1
+        width: 88
+        height: 91
+      spriteId: ed5b5ff24e549944d86bee2fb2adbb92
+    - name: crystal_mauler_free_v1.0_Frame_112
+      frameIndex: 112
+      cellRect:
+        x: 100
+        y: 1
+        width: 58
+        height: 71
+      spriteId: bfd566defe99b264f8b53b30c6650f7f
+    - name: crystal_mauler_free_v1.0_Frame_113
+      frameIndex: 113
+      cellRect:
+        x: 116
+        y: 1
+        width: 42
+        height: 48
+      spriteId: e29028222e2892f41bb2b7f3b2ad7af1
+    - name: crystal_mauler_free_v1.0_Frame_114
+      frameIndex: 114
+      cellRect:
+        x: 112
+        y: 1
+        width: 47
+        height: 40
+      spriteId: 55c4c39e59fde834b9c39fd06e077033
+    - name: crystal_mauler_free_v1.0_Frame_115
+      frameIndex: 115
+      cellRect:
+        x: 128
+        y: 1
+        width: 78
+        height: 53
+      spriteId: 4c4bcfdb12c2ac34a8d606ef701f6968
+    - name: crystal_mauler_free_v1.0_Frame_116
+      frameIndex: 116
+      cellRect:
+        x: 131
+        y: 1
+        width: 153
+        height: 83
+      spriteId: bd7152a53733855409359aab4af6bd82
+    - name: crystal_mauler_free_v1.0_Frame_117
+      frameIndex: 117
+      cellRect:
+        x: 131
+        y: 1
+        width: 155
+        height: 83
+      spriteId: 29c78ecf9832c40478ae078daf35f447
+    - name: crystal_mauler_free_v1.0_Frame_118
+      frameIndex: 118
+      cellRect:
+        x: 131
+        y: 1
+        width: 152
+        height: 74
+      spriteId: 5c29fd84645d5f04cac6c203ac507bc8
+    - name: crystal_mauler_free_v1.0_Frame_119
+      frameIndex: 119
+      cellRect:
+        x: 131
+        y: 1
+        width: 152
+        height: 74
+      spriteId: b88ace7ecaf9f3c4e9ad5932a06266da
+    - name: crystal_mauler_free_v1.0_Frame_120
+      frameIndex: 120
+      cellRect:
+        x: 131
+        y: 1
+        width: 138
+        height: 52
+      spriteId: 4be7342b38f564341bfc9246e4be763b
+    - name: crystal_mauler_free_v1.0_Frame_121
+      frameIndex: 121
+      cellRect:
+        x: 131
+        y: 1
+        width: 132
+        height: 49
+      spriteId: c067330a491ff1f4fa96987a48176a04
+    - name: crystal_mauler_free_v1.0_Frame_122
+      frameIndex: 122
+      cellRect:
+        x: 128
+        y: 1
+        width: 43
+        height: 39
+      spriteId: 633cb0e4a41223145aac0b89693c8dbf
+    - name: crystal_mauler_free_v1.0_Frame_123
+      frameIndex: 123
+      cellRect:
+        x: 130
+        y: 1
+        width: 42
+        height: 45
+      spriteId: 9b371cab68371154ea375842eb32c4af
+    - name: crystal_mauler_free_v1.0_Frame_124
+      frameIndex: 124
+      cellRect:
+        x: 128
+        y: 1
+        width: 42
+        height: 63
+      spriteId: 4b505ec8802273a439ec82a08e6c88c0
+    - name: crystal_mauler_free_v1.0_Frame_125
+      frameIndex: 125
+      cellRect:
+        x: 128
+        y: 1
+        width: 42
+        height: 63
+      spriteId: 9f0a014f3aa7c1142b8c7d150a68362c
+    - name: crystal_mauler_free_v1.0_Frame_126
+      frameIndex: 126
+      cellRect:
+        x: 128
+        y: 1
+        width: 42
+        height: 63
+      spriteId: eff75be2a31310a40b9002d304b84061
+    - name: crystal_mauler_free_v1.0_Frame_127
+      frameIndex: 127
+      cellRect:
+        x: 128
+        y: 1
+        width: 42
+        height: 63
+      spriteId: 7719cdefe7ccdee4691be5398a0d12a3
+    - name: crystal_mauler_free_v1.0_Frame_128
+      frameIndex: 128
+      cellRect:
+        x: 128
+        y: 1
+        width: 43
+        height: 45
+      spriteId: 9a15a679e5299304ea1f43d8052740eb
+    - name: crystal_mauler_free_v1.0_Frame_129
+      frameIndex: 129
+      cellRect:
+        x: 128
+        y: 1
+        width: 30
+        height: 45
+      spriteId: 39ce7e51f35597e49a8415447e38310b
+    - name: crystal_mauler_free_v1.0_Frame_130
+      frameIndex: 130
+      cellRect:
+        x: 130
+        y: 1
+        width: 42
+        height: 45
+      spriteId: ab07524225cd944478aff8bd326435bf
+    - name: crystal_mauler_free_v1.0_Frame_131
+      frameIndex: 131
+      cellRect:
+        x: 128
+        y: 1
+        width: 43
+        height: 39
+      spriteId: a468e6c661fe5fd49b071a50061e067e
+    - name: crystal_mauler_free_v1.0_Frame_132
+      frameIndex: 132
+      cellRect:
+        x: 135
+        y: 1
+        width: 34
+        height: 41
+      spriteId: b1a01b0ad1d94804d93be4c663f3f11e
+    - name: crystal_mauler_free_v1.0_Frame_133
+      frameIndex: 133
+      cellRect:
+        x: 135
+        y: 1
+        width: 34
+        height: 41
+      spriteId: 588f23c7f1a2b324aaf3b7a4a58a51e5
+    - name: crystal_mauler_free_v1.0_Frame_134
+      frameIndex: 134
+      cellRect:
+        x: 128
+        y: 1
+        width: 31
+        height: 41
+      spriteId: adce059c87b73e941af7f9c70a022882
+    - name: crystal_mauler_free_v1.0_Frame_135
+      frameIndex: 135
+      cellRect:
+        x: 127
+        y: 1
+        width: 32
+        height: 41
+      spriteId: 8d09cd760bac00b44a937d69fc7e4c22
+    - name: crystal_mauler_free_v1.0_Frame_136
+      frameIndex: 136
+      cellRect:
+        x: 128
+        y: 1
+        width: 31
+        height: 41
+      spriteId: 0424aa8e309f21f47a8a0aed695fba88
+    - name: crystal_mauler_free_v1.0_Frame_137
+      frameIndex: 137
+      cellRect:
+        x: 128
+        y: 1
+        width: 38
+        height: 41
+      spriteId: 8923cbd5b29eaa8498cbec3ec1c34a80
+    - name: crystal_mauler_free_v1.0_Frame_138
+      frameIndex: 138
+      cellRect:
+        x: 128
+        y: 1
+        width: 43
+        height: 39
+      spriteId: 3e5d2db40d943214bb51a9efce44d0f6
+    - name: crystal_mauler_free_v1.0_Frame_139
+      frameIndex: 139
+      cellRect:
+        x: 131
+        y: 1
+        width: 43
+        height: 35
+      spriteId: aabfd1e80aa69994298d0fd20307294c
+    - name: crystal_mauler_free_v1.0_Frame_140
+      frameIndex: 140
+      cellRect:
+        x: 131
+        y: 1
+        width: 43
+        height: 35
+      spriteId: 64592bd01356afa4d96d1550887a6058
+    - name: crystal_mauler_free_v1.0_Frame_141
+      frameIndex: 141
+      cellRect:
+        x: 131
+        y: 1
+        width: 43
+        height: 35
+      spriteId: 5d74a420cce796e4abb542e14b10b1bd
+    - name: crystal_mauler_free_v1.0_Frame_142
+      frameIndex: 142
+      cellRect:
+        x: 131
+        y: 1
+        width: 43
+        height: 35
+      spriteId: 35cf38f162315704591331b2c37198a8
+    - name: crystal_mauler_free_v1.0_Frame_143
+      frameIndex: 143
+      cellRect:
+        x: 131
+        y: 1
+        width: 43
+        height: 35
+      spriteId: a0f6f11fe1c75f24e8369e696b91bef6
+    - name: crystal_mauler_free_v1.0_Frame_144
+      frameIndex: 144
+      cellRect:
+        x: 134
+        y: 1
+        width: 38
+        height: 34
+      spriteId: a07e2c8bf2465e441864d5b5c38fca34
+    - name: crystal_mauler_free_v1.0_Frame_145
+      frameIndex: 145
+      cellRect:
+        x: 134
+        y: 1
+        width: 37
+        height: 33
+      spriteId: 4b921576d9d15b745b0ca20c46165925
+    - name: crystal_mauler_free_v1.0_Frame_146
+      frameIndex: 146
+      cellRect:
+        x: 134
+        y: 1
+        width: 36
+        height: 24
+      spriteId: e7abcf8837467694eb54a9490057727b
+    - name: crystal_mauler_free_v1.0_Frame_147
+      frameIndex: 147
+      cellRect:
+        x: 134
+        y: 1
+        width: 44
+        height: 12
+      spriteId: e42ed376c936d0d48a2043926f95ffa8
+    - name: crystal_mauler_free_v1.0_Frame_148
+      frameIndex: 148
+      cellRect:
+        x: 133
+        y: 1
+        width: 54
+        height: 12
+      spriteId: 855133b631c56b541a1c746bd5aa1f0f
+    - name: crystal_mauler_free_v1.0_Frame_149
+      frameIndex: 149
+      cellRect:
+        x: 133
+        y: 1
+        width: 55
+        height: 12
+      spriteId: 7aa9c097618ab3949bf5efafc634eb9c
+    - name: crystal_mauler_free_v1.0_Frame_150
+      frameIndex: 150
+      cellRect:
+        x: 131
+        y: 1
+        width: 61
+        height: 12
+      spriteId: 45c9a9fffe45c8049b7a171d3b1055af
+    - name: crystal_mauler_free_v1.0_Frame_151
+      frameIndex: 151
+      cellRect:
+        x: 128
+        y: 1
+        width: 71
+        height: 12
+      spriteId: cb67b18874b7d4e4ba99582277d8584c
+    - name: crystal_mauler_free_v1.0_Frame_152
+      frameIndex: 152
+      cellRect:
+        x: 134
+        y: 1
+        width: 44
+        height: 12
+      spriteId: 64583314806061f4796f005c02459a3e
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 288, y: 128}
