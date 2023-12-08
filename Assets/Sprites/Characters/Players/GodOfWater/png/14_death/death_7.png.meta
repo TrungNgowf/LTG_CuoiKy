@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -116,12 +116,12 @@ TextureImporter:
       name: death_7_0
       rect:
         serializedVersion: 2
-        x: 120
-        y: 0
-        width: 53
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 121
+        y: 1
+        width: 51
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9889cb95102f64240938b9ff9ffd24a0
     internalID: 0
     vertices: []
     indices: 
