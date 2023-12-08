@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -116,12 +116,12 @@ TextureImporter:
       name: idle_4_0
       rect:
         serializedVersion: 2
-        x: 132
-        y: 6
-        width: 26
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 133
+        y: 7
+        width: 24
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f627eec789bb6ad4097cb69c88bbc9f2
     internalID: 0
     vertices: []
     indices: 

@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -116,12 +116,12 @@ TextureImporter:
       name: roll_2_0
       rect:
         serializedVersion: 2
-        x: 131
-        y: 0
-        width: 52
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 132
+        y: 1
+        width: 50
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a378158dbef128f4298e699da42ad8de
     internalID: 0
     vertices: []
     indices: 

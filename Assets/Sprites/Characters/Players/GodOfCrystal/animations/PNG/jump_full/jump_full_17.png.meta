@@ -100,7 +100,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -119,12 +119,12 @@ TextureImporter:
       name: jump_full_17_0
       rect:
         serializedVersion: 2
-        x: 115
-        y: 0
-        width: 17
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 116
+        y: 1
+        width: 15
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -140,12 +140,12 @@ TextureImporter:
       name: jump_full_17_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 43
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 129
+        y: 1
+        width: 41
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,7 +160,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 24583f2ea85d2c34d861487815fac5b1
     internalID: 0
     vertices: []
     indices: 
