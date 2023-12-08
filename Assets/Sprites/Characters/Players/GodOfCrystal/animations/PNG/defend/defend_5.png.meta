@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -116,12 +116,12 @@ TextureImporter:
       name: defend_5_0
       rect:
         serializedVersion: 2
-        x: 127
-        y: 0
-        width: 44
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 1
+        width: 42
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6e0531d087728f54b9ea76d3bfe33ee7
     internalID: 0
     vertices: []
     indices: 

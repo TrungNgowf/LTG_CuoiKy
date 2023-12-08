@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -116,12 +116,12 @@ TextureImporter:
       name: air_atk_5_0
       rect:
         serializedVersion: 2
-        x: 128
-        y: 1
-        width: 58
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 129
+        y: 2
+        width: 56
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: aa36efad6e66f6746b7e0a36a7c2faaa
     internalID: 0
     vertices: []
     indices: 

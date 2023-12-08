@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -116,12 +116,12 @@ TextureImporter:
       name: surf_8_0
       rect:
         serializedVersion: 2
-        x: 99
-        y: 1
-        width: 75
-        height: 39
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 98
+        y: 0
+        width: 77
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9c78d3ab8b849c648bf889de8843f9dc
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
