@@ -7,6 +7,7 @@ public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenuUI;
     public static bool isPaused;
+    private bool isMuted = false;
     private void Start()
     {
         // Ensure the pause menu is initially hidden
@@ -58,14 +59,19 @@ public class PauseMenu : MonoBehaviour
         // or UnityEditor.EditorApplication.isPlaying = false; in the editor
         // Implement the logic to quit the game
         // For standalone builds
-#if UNITY_STANDALONE
-                Application.Quit();
-#endif
+        #if UNITY_STANDALONE
+                        Application.Quit();
+        #endif
 
-        // For the editor
-#if UNITY_EDITOR
-                UnityEditor.EditorApplication.isPlaying = false;
-#endif
+                // For the editor
+        #if UNITY_EDITOR
+                        UnityEditor.EditorApplication.isPlaying = false;
+        #endif
+    }
+    public void ToggleMute()
+    {
+        isMuted = !isMuted;
+        AudioListener.volume = isMuted ? 0f : 1f;
     }
 
 
