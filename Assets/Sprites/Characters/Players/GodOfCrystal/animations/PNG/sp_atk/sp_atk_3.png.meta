@@ -105,6 +105,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -112,12 +125,12 @@ TextureImporter:
       name: sp_atk_3_0
       rect:
         serializedVersion: 2
-        x: 89
-        y: 51
-        width: 45
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 90
+        y: 52
+        width: 43
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -133,12 +146,12 @@ TextureImporter:
       name: sp_atk_3_1
       rect:
         serializedVersion: 2
-        x: 137
-        y: 31
-        width: 33
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 138
+        y: 32
+        width: 31
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -154,12 +167,12 @@ TextureImporter:
       name: sp_atk_3_2
       rect:
         serializedVersion: 2
-        x: 87
-        y: 9
-        width: 37
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 88
+        y: 10
+        width: 35
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -175,12 +188,12 @@ TextureImporter:
       name: sp_atk_3_3
       rect:
         serializedVersion: 2
-        x: 111
-        y: 0
-        width: 50
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 112
+        y: 1
+        width: 48
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,14 +208,18 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 40baf8f8df3dcac4891b7c3c857145a7
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sp_atk_3_0: 7577484270032752553
+      sp_atk_3_1: -4392901670179366370
+      sp_atk_3_2: -7381769033097132067
+      sp_atk_3_3: 858470750432962513
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
