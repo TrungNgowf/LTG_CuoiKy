@@ -116,12 +116,12 @@ TextureImporter:
       name: 01_idle_2_0
       rect:
         serializedVersion: 2
-        x: 123
-        y: 0
-        width: 47
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 124
+        y: 1
+        width: 45
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 43de65407502a58488678058bee03e90
     internalID: 0
     vertices: []
     indices: 

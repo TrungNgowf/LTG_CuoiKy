@@ -119,12 +119,12 @@ TextureImporter:
       name: 13_death_7_0
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 54
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 97
+        y: 1
+        width: 52
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -140,12 +140,12 @@ TextureImporter:
       name: 13_death_7_1
       rect:
         serializedVersion: 2
-        x: 142
-        y: 5
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 143
+        y: 6
+        width: 12
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,7 +160,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a079c442b06ef1d4b984db88b124e6b9
     internalID: 0
     vertices: []
     indices: 

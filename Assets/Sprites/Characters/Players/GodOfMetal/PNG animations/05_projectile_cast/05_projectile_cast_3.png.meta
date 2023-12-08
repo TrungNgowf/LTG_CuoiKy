@@ -116,12 +116,12 @@ TextureImporter:
       name: 05_projectile_cast_3_0
       rect:
         serializedVersion: 2
-        x: 127
-        y: 0
-        width: 57
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 1
+        width: 55
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8e670280c10d53241ab82f4a8cdc63b7
     internalID: 0
     vertices: []
     indices: 

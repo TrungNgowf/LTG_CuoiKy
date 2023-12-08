@@ -116,12 +116,12 @@ TextureImporter:
       name: tumble_4_0
       rect:
         serializedVersion: 2
-        x: 124
-        y: 8
-        width: 46
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 125
+        y: 9
+        width: 44
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4d54b7e5b41c32846a3e4bf35accabe8
     internalID: 0
     vertices: []
     indices: 

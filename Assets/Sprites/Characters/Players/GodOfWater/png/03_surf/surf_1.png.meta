@@ -116,12 +116,12 @@ TextureImporter:
       name: surf_1_0
       rect:
         serializedVersion: 2
-        x: 102
-        y: 0
-        width: 60
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 103
+        y: 1
+        width: 58
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1c3ddd309e578fe43b9b38631953552f
     internalID: 0
     vertices: []
     indices: 

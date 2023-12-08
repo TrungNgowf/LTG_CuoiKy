@@ -116,12 +116,12 @@ TextureImporter:
       name: heal_10_0
       rect:
         serializedVersion: 2
-        x: 128
+        x: 129
         y: 0
-        width: 33
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 31
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4eef0fbe1e05b8442b68fd4838623f09
     internalID: 0
     vertices: []
     indices: 

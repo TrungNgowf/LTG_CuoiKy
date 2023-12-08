@@ -116,12 +116,12 @@ TextureImporter:
       name: 06_trap_cast_8_0
       rect:
         serializedVersion: 2
-        x: 117
-        y: 1
-        width: 49
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 118
+        y: 2
+        width: 47
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 15cef4b598e9cf446bc88ea36f526275
     internalID: 0
     vertices: []
     indices: 

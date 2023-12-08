@@ -116,12 +116,12 @@ TextureImporter:
       name: j_up_3_0
       rect:
         serializedVersion: 2
-        x: 124
-        y: 2
-        width: 41
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 125
+        y: 3
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cfa642d4d88e7a04598cfd0e474dba35
     internalID: 0
     vertices: []
     indices: 

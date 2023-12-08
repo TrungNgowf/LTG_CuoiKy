@@ -119,12 +119,12 @@ TextureImporter:
       name: air_atk5_0
       rect:
         serializedVersion: 2
-        x: 125
-        y: 4
-        width: 42
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 126
+        y: 5
+        width: 40
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -140,12 +140,12 @@ TextureImporter:
       name: air_atk5_1
       rect:
         serializedVersion: 2
-        x: 169
-        y: 28
-        width: 40
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 170
+        y: 29
+        width: 38
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,7 +160,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 44c434386cb287c4881941f042f0dcaa
     internalID: 0
     vertices: []
     indices: 
