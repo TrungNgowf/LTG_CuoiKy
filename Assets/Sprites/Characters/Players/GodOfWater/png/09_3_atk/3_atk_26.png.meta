@@ -108,6 +108,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -115,11 +128,11 @@ TextureImporter:
       name: 3_atk_26_0
       rect:
         serializedVersion: 2
-        x: 138
-        y: 0
-        width: 25
-        height: 46
-      alignment: 0
+        x: 139
+        y: 1
+        width: 23
+        height: 44
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -136,11 +149,11 @@ TextureImporter:
       name: 3_atk_26_1
       rect:
         serializedVersion: 2
-        x: 226
-        y: 34
-        width: 16
-        height: 21
-      alignment: 0
+        x: 227
+        y: 35
+        width: 14
+        height: 19
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -157,11 +170,11 @@ TextureImporter:
       name: 3_atk_26_2
       rect:
         serializedVersion: 2
-        x: 184
-        y: 0
-        width: 31
-        height: 8
-      alignment: 0
+        x: 185
+        y: 1
+        width: 29
+        height: 6
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -178,11 +191,11 @@ TextureImporter:
       name: 3_atk_26_3
       rect:
         serializedVersion: 2
-        x: 217
-        y: 0
-        width: 16
-        height: 7
-      alignment: 0
+        x: 218
+        y: 1
+        width: 14
+        height: 5
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -199,11 +212,11 @@ TextureImporter:
       name: 3_atk_26_4
       rect:
         serializedVersion: 2
-        x: 230
-        y: 0
-        width: 18
-        height: 32
-      alignment: 0
+        x: 231
+        y: 1
+        width: 16
+        height: 30
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -219,14 +232,19 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f762124d20ce0ac479835dda1e760cb1
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      3_atk_26_0: -3393305758567671484
+      3_atk_26_1: 4151978161795720542
+      3_atk_26_2: -3175060980509406659
+      3_atk_26_3: 2583371559612075924
+      3_atk_26_4: -1865196936913948462
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
