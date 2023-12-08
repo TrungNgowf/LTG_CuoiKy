@@ -67,8 +67,35 @@ AnimationClip:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
-    genericBindings: []
-    pptrCurveMapping: []
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    pptrCurveMapping:
+    - {fileID: -5096453005417678585, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: 4241534917584876069, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: -7706107091428827576, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: 2187230696302577485, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: 6155044944099605124, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: -3835711724768804729, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: -8774129611234917042, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: 6753012735096205545, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: -9143998035187729351, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: -4955183851827038402, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: 192980100748108374, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: -756201581393860346, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: 2278327838944077115, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: -6692542033619262569, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: 1446133081174915553, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: -6317325174460625639, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: -2444193929367783815, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: -2444193929367783815, guid: 1451715ffee457642be1b537aca284b3, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -93,4 +120,25 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.9
+    functionName: setAtk3AreaActive
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.26
+    functionName: setAtk3AreaInActive
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.53
+    functionName: FinishAnim
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
