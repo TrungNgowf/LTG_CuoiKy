@@ -8565,7 +8565,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 0.32, y: 0.42}
+    oldSize: {x: 0.87, y: 0.65}
     newSize: {x: 0.42, y: 0.42}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8699,8 +8699,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stat: {fileID: 0}
-  attackOffset: {x: 0, y: 0, z: 0}
-  attackRange: 1
+  attackOffset: {x: 0.1, y: 0.32, z: 0}
+  attackRange: 0.33
   enemyLayers:
     serializedVersion: 2
     m_Bits: 128
