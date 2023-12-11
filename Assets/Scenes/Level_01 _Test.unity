@@ -10644,14 +10644,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f6f5254b4517544a9c8686166281b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 500
   attackDamage: 30
   attackSpeed: 1.5
   speedRun: 1.5
   jumpForce: 3.4
   armor: 10
   maxVirtualHealth: 50
-  maxMana: 50
+  maxMana: 10
   healthBar: {fileID: 1925070197}
   virtualHealthBar: {fileID: 486983879}
   manaBar: {fileID: 1199706545}
@@ -12372,7 +12371,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f6f5254b4517544a9c8686166281b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 500
   attackDamage: 30
   attackSpeed: 1.5
   speedRun: 1.5
@@ -13086,7 +13084,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f6f5254b4517544a9c8686166281b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 500
   attackDamage: 30
   attackSpeed: 1.5
   speedRun: 1.5
@@ -13514,7 +13511,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f6f5254b4517544a9c8686166281b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 500
   attackDamage: 30
   attackSpeed: 1.5
   speedRun: 1.5
@@ -13999,7 +13995,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f6f5254b4517544a9c8686166281b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 500
   attackDamage: 30
   attackSpeed: 1.5
   speedRun: 1.5
@@ -14545,7 +14540,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f6f5254b4517544a9c8686166281b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 500
   attackDamage: 30
   attackSpeed: 1.5
   speedRun: 1.5
@@ -15365,7 +15359,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f6f5254b4517544a9c8686166281b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 500
   attackDamage: 30
   attackSpeed: 1.5
   speedRun: 1.5
@@ -18895,6 +18888,10 @@ MonoBehaviour:
   huntress: {fileID: 1000633612}
   godOfWind: {fileID: 1342855108}
   godOfCrystal: {fileID: 1164394096}
+  godOfFire: {fileID: 1404161357}
+  godOfWater: {fileID: 1224199972}
+  godOfEarth: {fileID: 1279131246}
+  godOfMetal: {fileID: 1256137945}
 --- !u!4 &1720348566
 Transform:
   m_ObjectHideFlags: 0
