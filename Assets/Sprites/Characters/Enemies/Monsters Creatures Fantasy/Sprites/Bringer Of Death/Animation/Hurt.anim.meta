@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a52d7d1a02ed42d4fa1f28e704688eab
+guid: 1192ecea3d3a5994ead9ced2fbd0726b
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 7400000
@@ -8,8 +8,8 @@ NativeFormatImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 167949
-  packageName: Monsters_Creatures_Fantasy
+  productId: 195719
+  packageName: Bringer Of Death (free)
   packageVersion: 1.0
-  assetPath: Assets/Monsters Creatures Fantasy/Animations/Goblin/Goblin_anim.anim
-  uploadId: 365724
+  assetPath: Assets/Bringer Of Death/Animation/Hurt.anim
+  uploadId: 434405
