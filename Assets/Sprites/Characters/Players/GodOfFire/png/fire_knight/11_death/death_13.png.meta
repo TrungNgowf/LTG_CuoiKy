@@ -116,12 +116,12 @@ TextureImporter:
       name: death_13_0
       rect:
         serializedVersion: 2
-        x: 132
-        y: 0
-        width: 65
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 133
+        y: 1
+        width: 63
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ba6b929e7a027114080a5d9638ffb57d
     internalID: 0
     vertices: []
     indices: 

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
@@ -23,7 +24,10 @@ public class EnemyAttack : MonoBehaviour
         Collider2D colInfo = Physics2D.OverlapCircle(pos, attackRange, attackMask);
         if (colInfo != null)
         {
-            colInfo.GetComponent<PlayerStats>().TakeDamage(stats.attackDamage);
+            if (colInfo.gameObject.tag == "Player")
+            {
+                colInfo.GetComponent<PlayerStats>().TakeDamage(stats.attackDamage);
+            }
         }
     }
 

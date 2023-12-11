@@ -116,12 +116,12 @@ TextureImporter:
       name: jump_9_0
       rect:
         serializedVersion: 2
-        x: 98
-        y: 5
-        width: 62
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 99
+        y: 6
+        width: 60
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 40d3e0bac0cf66b419e8253a2f444df0
     internalID: 0
     vertices: []
     indices: 

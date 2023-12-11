@@ -116,12 +116,12 @@ TextureImporter:
       name: take_hit_2_0
       rect:
         serializedVersion: 2
-        x: 95
-        y: 0
-        width: 67
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 1
+        width: 65
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7800e2e0569b5ba49b6060c5caae1ea7
     internalID: 0
     vertices: []
     indices: 

@@ -125,12 +125,12 @@ TextureImporter:
       name: sp_atk_7_0
       rect:
         serializedVersion: 2
-        x: 188
-        y: 82
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 129
+        y: 1
+        width: 86
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,12 +146,12 @@ TextureImporter:
       name: sp_atk_7_1
       rect:
         serializedVersion: 2
-        x: 196
-        y: 72
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 129
+        y: 1
+        width: 58
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -167,12 +167,12 @@ TextureImporter:
       name: sp_atk_7_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 60
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 197
+        y: 73
+        width: 12
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,12 +188,12 @@ TextureImporter:
       name: sp_atk_7_3
       rect:
         serializedVersion: 2
-        x: 206
-        y: 63
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 207
+        y: 64
+        width: 8
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,7 +208,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fec64dc06c08628468090b31164bd746
     internalID: 0
     vertices: []
     indices: 
