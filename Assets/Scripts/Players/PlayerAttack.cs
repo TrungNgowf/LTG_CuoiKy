@@ -3,20 +3,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GodOfWindAttack : MonoBehaviour
+public class PlayerAttack : MonoBehaviour
 {
     private Animator anim;
     public PlayerStats stat;
     public Vector3 attack_01;
     public Vector3 attack_02;
-    public Vector3 attack_03;
+    //public Vector3 attack_03;
     public float attackRange1 = 0.5f;
     public float attackRange2 = 0.5f;
-    public float attackRange3 = 0.5f;
+    //public float attackRange3 = 0.5f;
     public LayerMask enemyLayers;
     public int comboIndex = 1;
     public bool isAtk;
-    public Collider2D atk3_area;
+    public Collider2D _atk3Area;
+    public Collider2D _specAtkArea;
+
 
     // Start is called before the first frame update
     private void Start()
@@ -29,6 +31,7 @@ public class GodOfWindAttack : MonoBehaviour
     private void Update()
     {
         Combo();
+        SpecialAttack();
     }
 
     private void Attack1()
@@ -72,6 +75,13 @@ public class GodOfWindAttack : MonoBehaviour
         Gizmos.DrawWireSphere(pos2, attackRange2);
 
     }
+    private void SpecialAttack()
+    {
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            anim.SetTrigger("SpAtk");
+        }
+    }
     public void Combo()
     {
         if (Input.GetKeyDown(KeyCode.M) && !isAtk)
@@ -111,10 +121,18 @@ public class GodOfWindAttack : MonoBehaviour
     }
     public void setAtk3AreaActive()
     {
-        atk3_area.GetComponent<Atk3Area>().gameObject.SetActive(true);
+        _atk3Area.GetComponent<Atk3Area>().gameObject.SetActive(true);
     }
     public void setAtk3AreaInActive()
     {
-        atk3_area.GetComponent<Atk3Area>().gameObject.SetActive(false);
+        _atk3Area.GetComponent<Atk3Area>().gameObject.SetActive(false);
+    }
+    public void setSpecialAtkAreaActive()
+    {
+        _specAtkArea.GetComponent<SpecialAttackArea>().gameObject.SetActive(true);
+    }
+    public void setSpecialAtkAreaInActive()
+    {
+        _specAtkArea.GetComponent<SpecialAttackArea>().gameObject.SetActive(false);
     }
 }

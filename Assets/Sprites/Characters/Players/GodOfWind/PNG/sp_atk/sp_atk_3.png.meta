@@ -116,12 +116,12 @@ TextureImporter:
       name: sp_atk_3_0
       rect:
         serializedVersion: 2
-        x: 112
-        y: 0
-        width: 61
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 113
+        y: 1
+        width: 59
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0c59a3e9bc32f6c439b1180b7e5cba23
     internalID: 0
     vertices: []
     indices: 

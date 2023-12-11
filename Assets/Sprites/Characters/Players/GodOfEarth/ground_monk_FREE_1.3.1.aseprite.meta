@@ -121,7 +121,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: ground_monk_FREE_1.3.1_Frame_140
     originalName: 
-    pivot: {x: 0.16161616, y: -0.2413793}
+    pivot: {x: 0.17016971, y: -0.22901088}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
