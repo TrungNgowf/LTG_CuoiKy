@@ -144,10 +144,10 @@ TextureImporter:
       name: sp_atk_16_0
       rect:
         serializedVersion: 2
-        x: 161
-        y: 26
-        width: 7
-        height: 20
+        x: 120
+        y: 1
+        width: 123
+        height: 54
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

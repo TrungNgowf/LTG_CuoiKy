@@ -35,7 +35,10 @@ public class HuntressAttack : MonoBehaviour
         pos += transform.up * attackOffset.y;
         //detect enemies
         Collider2D[] hittedEnemies = Physics2D.OverlapCircleAll(pos, attackRange, enemyLayers);
-
+        if (hittedEnemies.Length > 0)
+        {
+            stat.GainMana(5);
+        }
         //deal damage
         foreach (Collider2D enemy in hittedEnemies)
         {

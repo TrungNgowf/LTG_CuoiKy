@@ -122,12 +122,12 @@ TextureImporter:
       name: take_hit_3_0
       rect:
         serializedVersion: 2
-        x: 94
-        y: 0
-        width: 68
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 95
+        y: 1
+        width: 66
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -143,12 +143,12 @@ TextureImporter:
       name: take_hit_3_1
       rect:
         serializedVersion: 2
-        x: 143
-        y: 38
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 144
+        y: 39
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -164,12 +164,12 @@ TextureImporter:
       name: take_hit_3_2
       rect:
         serializedVersion: 2
-        x: 153
-        y: 35
-        width: 12
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 154
+        y: 36
+        width: 10
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,7 +184,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f758f418b1bd2134ca97f958ff686b8f
     internalID: 0
     vertices: []
     indices: 

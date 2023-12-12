@@ -63,8 +63,33 @@ AnimationClip:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
-    genericBindings: []
-    pptrCurveMapping: []
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    pptrCurveMapping:
+    - {fileID: -5777835371545629447, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: 3964814353368533777, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: 1149046336468410024, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: 2963258703637945584, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: -5769173499592428247, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: 4421383259770020510, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: -2634172415298445056, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: 1716972485673849759, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: -7908398919359921063, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: 5350879309811478745, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: -3792451457934997732, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: -696643912469737814, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: 6858984413903275778, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: -2607181132415853875, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: 398158385757118474, guid: 1451715ffee457642be1b537aca284b3, type: 3}
+    - {fileID: 398158385757118474, guid: 1451715ffee457642be1b537aca284b3, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -89,4 +114,18 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.72
+    functionName: setSpecialAtkAreaActive
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.17
+    functionName: setSpecialAtkAreaInActive
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

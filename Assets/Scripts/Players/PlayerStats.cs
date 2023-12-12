@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
-    [SerializeField] public float maxHealth = 300;
+    private float maxHealth = 300;
     [SerializeField] public float attackDamage = 20;
     [SerializeField] public float attackSpeed = 1.2f;
     [SerializeField] public float speedRun = 1.5f;
@@ -26,7 +26,10 @@ public class PlayerStats : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        currentHealth = maxHealth;
+        if (gameObject.name == "Huntress")
+        {
+            currentHealth = maxHealth;
+        }
         healthBar.maxValue = maxHealth;
         healthBar.value = currentHealth;
         virtualHealthBar.maxValue = maxVirtualHealth;
@@ -40,12 +43,26 @@ public class PlayerStats : MonoBehaviour
     {
 
     }
+
+    public void GainMana(float mana)
+    {
+        currentMana += mana;
+        currentMana = Math.Clamp(currentMana, 0, maxMana);
+        manaBar.value = currentMana;
+    }
+    public void GainHealth(float health)
+    {
+        currentHealth += health;
+        currentHealth = Math.Clamp(currentHealth, 0, maxHealth);
+        healthBar.value = currentHealth;
+    }
     public void TakeDamage(float damage)
     {
         animator.SetTrigger("Hitted");
         audioManager.PlaySFX(audioManager.player_takeHit);
         float finalDamage = damage - armor;
-        if (currentVirtualHealth > 0) {
+        if (currentVirtualHealth > 0)
+        {
             currentVirtualHealth -= finalDamage;
             currentVirtualHealth = Math.Clamp(currentVirtualHealth, 0, maxVirtualHealth);
             virtualHealthBar.value = currentVirtualHealth;
@@ -61,10 +78,33 @@ public class PlayerStats : MonoBehaviour
                 Dead();
             }
         }
-        
+
     }
     private void Dead()
     {
         Debug.Log("Iam Dead");
+    }
+    public bool checkMaxMana()
+    {
+        return currentMana >= maxMana;
+    }
+    public float getCurrentHealth()
+    {
+        return currentHealth;
+    }
+    public void setCurrentHealth(float health)
+    {
+        healthBar.value = health;
+        currentHealth = health;
+    }
+    public void setVirtualHealth()
+    {
+        virtualHealthBar.value = maxVirtualHealth;
+        currentVirtualHealth = maxVirtualHealth;
+    }
+    public void setCurrentMana(float mana)
+    {
+        currentMana = mana;
+        manaBar.value = mana;
     }
 }
