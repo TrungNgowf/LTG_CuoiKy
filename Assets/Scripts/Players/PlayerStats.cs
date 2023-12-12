@@ -21,6 +21,7 @@ public class PlayerStats : MonoBehaviour
     public Slider virtualHealthBar;
     public Slider manaBar;
     private Animator animator;
+    AudioManager audioManager;
 
     void Start()
     {
@@ -32,6 +33,7 @@ public class PlayerStats : MonoBehaviour
         virtualHealthBar.value = currentVirtualHealth;
         manaBar.maxValue = maxMana;
         manaBar.value = currentMana;
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     void Update()
@@ -41,6 +43,7 @@ public class PlayerStats : MonoBehaviour
     public void TakeDamage(float damage)
     {
         animator.SetTrigger("Hitted");
+        audioManager.PlaySFX(audioManager.player_takeHit);
         float finalDamage = damage - armor;
         if (currentVirtualHealth > 0) {
             currentVirtualHealth -= finalDamage;
