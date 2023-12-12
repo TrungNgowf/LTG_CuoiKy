@@ -15,6 +15,7 @@ public class EnemyStats : MonoBehaviour
     [SerializeField] public float armor = 5;
     [SerializeField] public Slider healthBar;
     float currentHealth;
+    public GameObject[] dropItems;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,26 +29,30 @@ public class EnemyStats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (currentHealth == 0)
+        {
+            currentHealth = -1;
+            Dead();
+        }
     }
     public void TakeDamage(float damage)
     {
-        float finalDamage = damage - armor;
-        currentHealth -= finalDamage;
-        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-        healthBar.value = currentHealth;
-        UpdateColorHealthBar();
-        animator.SetTrigger("Hitted");
-        if (currentHealth <= 0)
+        if (currentHealth > 0)
         {
-            Dead();
+            float finalDamage = damage - armor;
+            currentHealth -= finalDamage;
+            currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+            healthBar.value = currentHealth;
+            UpdateColorHealthBar();
+            animator.SetTrigger("Hitted");
         }
     }
     private async void Dead()
     {
+        gameObject.GetComponent<EnemyStats>().enabled = false;
         animator.SetBool("IsDead", true);
-        this.enabled = false;
-        await Task.Delay(1500);
+        DropItems();
+        await Task.Delay(1000);
         gameObject.SetActive(false);
     }
     private void UpdateColorHealthBar()
@@ -56,16 +61,25 @@ public class EnemyStats : MonoBehaviour
         if (currentHealth / maxHealth <= 0.25)
         {
             fillColor[1].color = Color.red;
-        } else if(currentHealth / maxHealth <= 0.5)
+        }
+        else if (currentHealth / maxHealth <= 0.5)
         {
             fillColor[1].color = Color.yellow;
         }
         else if (currentHealth / maxHealth <= 0.75)
         {
             fillColor[1].color = Color.blue;
-        } else
+        }
+        else
         {
             fillColor[1].color = Color.green;
+        }
+    }
+    private void DropItems()
+    {
+        for (int i = 0; i < dropItems.Length; i++)
+        {
+            Instantiate(dropItems[i], transform.position, Quaternion.identity);
         }
     }
 }
