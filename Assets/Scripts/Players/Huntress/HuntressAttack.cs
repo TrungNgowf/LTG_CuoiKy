@@ -12,10 +12,12 @@ public class HuntressAttack : MonoBehaviour
     public LayerMask enemyLayers;
     public int comboIndex = 1;
     public bool isAtk;
+    AudioManager audioManager;
 
     // Start is called before the first frame update
     private void Start()
     {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         anim = GetComponent<Animator>();
         stat = GetComponent<PlayerStats>();
     }
@@ -56,6 +58,7 @@ public class HuntressAttack : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.M) && !isAtk)
         {
             isAtk = true;
+            audioManager.PlaySFX(audioManager.nefati_atk);
             anim.SetTrigger("Attack" + comboIndex);
             Attack();
         }
