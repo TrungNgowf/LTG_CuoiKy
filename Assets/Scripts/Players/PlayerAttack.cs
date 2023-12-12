@@ -41,7 +41,10 @@ public class PlayerAttack : MonoBehaviour
         pos += transform.up * attack_01.y;
         //detect enemies
         Collider2D[] hittedEnemies = Physics2D.OverlapCircleAll(pos, attackRange1, enemyLayers);
-
+        if (hittedEnemies.Length > 0)
+        {
+            stat.GainMana(5);
+        }
         //deal damage
         foreach (Collider2D enemy in hittedEnemies)
         {
@@ -55,7 +58,10 @@ public class PlayerAttack : MonoBehaviour
         pos += transform.up * attack_02.y;
         //detect enemies
         Collider2D[] hittedEnemies = Physics2D.OverlapCircleAll(pos, attackRange2, enemyLayers);
-
+        if (hittedEnemies.Length > 0)
+        {
+            stat.GainMana(5);
+        }
         //deal damage
         foreach (Collider2D enemy in hittedEnemies)
         {
@@ -77,9 +83,10 @@ public class PlayerAttack : MonoBehaviour
     }
     private void SpecialAttack()
     {
-        if (Input.GetKeyDown(KeyCode.N))
+        if (Input.GetKeyDown(KeyCode.N) && stat.checkMaxMana())
         {
             anim.SetTrigger("SpAtk");
+            stat.setCurrentMana(0);
         }
     }
     public void Combo()

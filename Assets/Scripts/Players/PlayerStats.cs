@@ -48,6 +48,12 @@ public class PlayerStats : MonoBehaviour
         currentMana = Math.Clamp(currentMana, 0, maxMana);
         manaBar.value = currentMana;
     }
+    public void GainHealth(float health)
+    {
+        currentHealth += health;
+        currentHealth = Math.Clamp(currentHealth, 0, maxHealth);
+        healthBar.value = currentHealth;
+    }
     public void TakeDamage(float damage)
     {
         animator.SetTrigger("Hitted");
@@ -92,5 +98,10 @@ public class PlayerStats : MonoBehaviour
     {
         virtualHealthBar.value = maxVirtualHealth;
         currentVirtualHealth = maxVirtualHealth;
+    }
+    public void setCurrentMana(float mana)
+    {
+        currentMana = mana;
+        manaBar.value = mana;
     }
 }
