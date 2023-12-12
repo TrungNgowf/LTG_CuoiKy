@@ -10,13 +10,14 @@ public class PlayerMovement : MonoBehaviour
     public PlayerStats stats;
     private bool isGrounded;
     private bool doubleJump;
-
+    AudioManager audioManager;
 
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     void Update()
@@ -50,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
     {
         body.velocity = new Vector2(body.velocity.x, stats.jumpForce);
         anim.SetTrigger("Jump");
+        audioManager.PlaySFX(audioManager.player_jump);
         isGrounded = false;
     }
 

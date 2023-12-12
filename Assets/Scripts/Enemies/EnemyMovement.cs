@@ -9,13 +9,14 @@ public class EnemyMovement : StateMachineBehaviour
     public bool isFlipped = false;
     public float speed = 2.5f;
     public float attackRange = 3f;
-
+    AudioManager audioManager;
     Rigidbody2D rb;
 
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = animator.GetComponent<Rigidbody2D>();
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -29,6 +30,7 @@ public class EnemyMovement : StateMachineBehaviour
 
         if (Vector2.Distance(player.position, rb.position) <= attackRange)
         {
+            audioManager.PlaySFX(audioManager.nefati_atk);
             animator.SetTrigger("Attack");
         }
     }
