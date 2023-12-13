@@ -16,7 +16,7 @@ MonoBehaviour:
   isFlipped: 0
   speed: 0.7
   minX: -9
-  maxX: 0.9
+  maxX: 1
   minY: -2.5
   maxY: -1.5
   attackRange: 0.4
@@ -436,7 +436,7 @@ MonoBehaviour:
   isFlipped: 0
   speed: 0
   minX: -9
-  maxX: 0.9
+  maxX: 1
   minY: -2.5
   maxY: -1.5
   attackRange: 0

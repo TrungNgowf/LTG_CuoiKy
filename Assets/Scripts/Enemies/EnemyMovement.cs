@@ -44,6 +44,10 @@ public class EnemyMovement : StateMachineBehaviour
             }
             Task.Delay(2000).ContinueWith(_ => screamFunc());
         }
+        else
+        {
+            animator.SetBool("IsATK", false);
+        }
         
     }
 
