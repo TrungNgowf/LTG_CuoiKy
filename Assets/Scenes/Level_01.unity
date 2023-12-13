@@ -3895,7 +3895,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &214489347
 Animator:
   serializedVersion: 7
@@ -3931,10 +3931,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 100
-  attackDamage: 30
+  maxHealth: 3000
+  attackDamage: 40
   attackSpeed: 3
-  speedRun: 4
+  speedRun: 3
   jumpForce: 5
   armor: 10
   healthBar: {fileID: 0}
@@ -3951,8 +3951,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eb85540d39754f428ac62c820c4af2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackOffset: {x: -0.2, y: -0.07, z: 0}
-  attackRange: 0.5
+  attackOffset: {x: 0.14, y: -0.07, z: 0}
+  attackRange: 0.6
   attackMask:
     serializedVersion: 2
     m_Bits: 64
@@ -3986,7 +3986,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -4092,7 +4092,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 214489346}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -4120,7 +4120,7 @@ Transform:
   m_GameObject: {fileID: 214489346}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.568592, y: -1.926, z: -0.44006348}
+  m_LocalPosition: {x: 46.58, y: -1.08, z: -0.44006348}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17298,7 +17298,7 @@ Transform:
   m_GameObject: {fileID: 1000633612}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.12, y: -2.31, z: 0}
+  m_LocalPosition: {x: 38, y: -1.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21317,7 +21317,7 @@ RectTransform:
   m_Father: {fileID: 786488251}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -26435,11 +26435,11 @@ PolygonCollider2D:
       - {x: 1.0972629, y: -0.03234399}
       - {x: 0.9872053, y: 0.024020156}
       - {x: 0.8705224, y: 0.082237005}
-      - {x: 0.70331705, y: 0.15573409}
+      - {x: 0.694618, y: 0.15085164}
       - {x: -0.72999996, y: 0.15038435}
       - {x: -0.83955836, y: 0.10006932}
       - {x: -1.1009685, y: -0.03031503}
-      - {x: -1.29, y: -0.03}
+      - {x: -1.3581897, y: 0.051537625}
       - {x: -1.29, y: -0.099999994}
       - {x: -1.14, y: -0.17}
       - {x: -0.96, y: -0.17}
