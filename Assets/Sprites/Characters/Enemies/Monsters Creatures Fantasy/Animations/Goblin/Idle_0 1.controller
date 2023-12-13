@@ -15,10 +15,10 @@ MonoBehaviour:
   player: {fileID: 0}
   isFlipped: 0
   speed: 0
-  minX: -9
-  maxX: 1
-  minY: -2.5
-  maxY: -1.5
+  minX: -6.3
+  maxX: -3.6
+  minY: -1.5
+  maxY: 1
   attackRange: 0
 --- !u!1102 &-5910432913489364504
 AnimatorState:
@@ -161,10 +161,10 @@ MonoBehaviour:
   player: {fileID: 0}
   isFlipped: 0
   speed: 0.7
-  minX: -9
-  maxX: 1
-  minY: -2.5
-  maxY: -1.5
+  minX: -6.3
+  maxX: -3.6
+  minY: -1.5
+  maxY: 1
   attackRange: 0.5
 --- !u!1101 &-1430290374396452224
 AnimatorStateTransition:
@@ -194,7 +194,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Idle_0
+  m_Name: Idle_0 1
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Attack

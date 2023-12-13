@@ -13,6 +13,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip player_jump;
     public AudioClip player_takeHit;
     public AudioClip Boss_atk;
+    public AudioClip monster_scream;
 
     private void Start()
     {
