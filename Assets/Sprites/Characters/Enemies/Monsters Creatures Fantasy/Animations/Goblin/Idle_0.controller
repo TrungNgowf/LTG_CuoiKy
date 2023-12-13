@@ -163,6 +163,10 @@ MonoBehaviour:
   player: {fileID: 0}
   isFlipped: 0
   speed: 0.7
+  minX: -9
+  maxX: -3.6
+  minY: -1.5
+  maxY: 1
   attackRange: 0.5
 --- !u!91 &9100000
 AnimatorController:
