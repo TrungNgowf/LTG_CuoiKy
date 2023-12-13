@@ -7,7 +7,7 @@ public class EnemyAttack : MonoBehaviour
 {
     private EnemyStats stats;
     public Vector3 attackOffset;
-    public float attackRange = 0.5f;
+    public float attackRange;
     public LayerMask attackMask;
 
 
