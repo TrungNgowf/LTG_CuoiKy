@@ -13,6 +13,7 @@ public class EnemyStats : MonoBehaviour
     [SerializeField] public float speedRun = 2;
     [SerializeField] public float jumpForce = 4;
     [SerializeField] public float armor = 5;
+    PauseScript pauseScript;
     [SerializeField] public Slider healthBar;
     float currentHealth;
     public GameObject[] dropItems;
@@ -24,6 +25,7 @@ public class EnemyStats : MonoBehaviour
         currentHealth = maxHealth;
         healthBar.maxValue = maxHealth;
         healthBar.value = maxHealth;
+        pauseScript = FindAnyObjectByType<PauseScript>();
     }
 
     // Update is called once per frame
@@ -51,6 +53,10 @@ public class EnemyStats : MonoBehaviour
     {
         gameObject.GetComponent<EnemyStats>().enabled = false;
         animator.SetBool("IsDead", true);
+        if(maxHealth >= 300)
+        {
+            pauseScript.showWonPanel();
+        }
         DropItems();
         await Task.Delay(1000);
         gameObject.SetActive(false);

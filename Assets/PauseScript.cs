@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class PauseScript : MonoBehaviour
 {
     [SerializeField] GameObject lossPanel;
+    [SerializeField] GameObject wonPanel;
     [SerializeField] GameObject pausePanel;
     public void OpenMenu()
     {
@@ -14,6 +15,10 @@ public class PauseScript : MonoBehaviour
     }
     public void goHome()
     {
+        if (wonPanel.activeSelf)
+        {
+            wonPanel.SetActive(false);
+        }
         SceneManager.LoadScene("Home");
         Time.timeScale = 1f;
     }
@@ -36,5 +41,10 @@ public class PauseScript : MonoBehaviour
         Time.timeScale = 1f;
         lossPanel.SetActive(false);
         SceneManager.LoadScene("Level_01");
+    }
+    public void showWonPanel()
+    {
+        Time.timeScale = 0f;
+        wonPanel.SetActive(true);
     }
 }
