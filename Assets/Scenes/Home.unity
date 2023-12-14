@@ -1088,7 +1088,7 @@ GameObject:
   - component: {fileID: 1522974192}
   - component: {fileID: 1522974191}
   m_Layer: 5
-  m_Name: ContinueBtn
+  m_Name: OptionBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1177,7 +1177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5943012169099032883, guid: 3316aabd5dd7e2743ad1214e35350560, type: 3}
+  m_Sprite: {fileID: -3140579405029043979, guid: 3316aabd5dd7e2743ad1214e35350560, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
