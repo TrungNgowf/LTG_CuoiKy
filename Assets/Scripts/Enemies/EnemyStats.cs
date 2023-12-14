@@ -53,7 +53,7 @@ public class EnemyStats : MonoBehaviour
     {
         gameObject.GetComponent<EnemyStats>().enabled = false;
         animator.SetBool("IsDead", true);
-        if(maxHealth >= 300)
+        if(maxHealth >= 2000)
         {
             pauseScript.showWonPanel();
         }
