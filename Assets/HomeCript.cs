@@ -13,4 +13,14 @@ public class HomeCript : MonoBehaviour
     {
         SceneManager.LoadScene("Level_01");
     }
+
+    public void Continue()
+    {
+        Application.Quit();
+    }
+    public void Options()
+    {
+        SceneManager.LoadScene("Options");
+    }
+
 }

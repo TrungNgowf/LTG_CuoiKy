@@ -2,10 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
+    PauseScript pauseScript;
     private float maxHealth = 300;
     [SerializeField] public float attackDamage = 20;
     [SerializeField] public float attackSpeed = 1.2f;
@@ -25,6 +27,7 @@ public class PlayerStats : MonoBehaviour
 
     void Start()
     {
+        pauseScript = FindAnyObjectByType<PauseScript>();
         animator = GetComponent<Animator>();
         if (gameObject.name == "Huntress")
         {
@@ -83,6 +86,7 @@ public class PlayerStats : MonoBehaviour
     private void Dead()
     {
         Debug.Log("Iam Dead");
+        pauseScript.showLossPanel();
     }
     public bool checkMaxMana()
     {

@@ -7,7 +7,7 @@ public class MenuScript : MonoBehaviour
 {
     public void Exit()
     {
-        Application.Quit();
+        SceneManager.LoadScene("Home");
     }
     public void Continue()
     {
