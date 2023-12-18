@@ -55,7 +55,7 @@ public class HuntressAttack : MonoBehaviour
     }
     public void Combo()
     {
-        if (Input.GetKeyDown(KeyCode.M) && !isAtk)
+        if (Input.GetKeyDown(KeyCode.C) && !isAtk)
         {
             isAtk = true;
             audioManager.PlaySFX(audioManager.nefati_atk);

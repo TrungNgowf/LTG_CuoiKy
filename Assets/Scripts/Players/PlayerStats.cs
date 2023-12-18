@@ -61,24 +61,26 @@ public class PlayerStats : MonoBehaviour
     }
     public void TakeDamage(float damage)
     {
-        animator.SetTrigger("Hitted");
-        audioManager.PlaySFX(audioManager.player_takeHit);
-        float finalDamage = damage - armor;
-        if (currentVirtualHealth > 0)
-        {
-            currentVirtualHealth -= finalDamage;
-            currentVirtualHealth = Math.Clamp(currentVirtualHealth, 0, maxVirtualHealth);
-            virtualHealthBar.value = currentVirtualHealth;
-        }
-        else
-        {
-            currentHealth -= finalDamage;
-            currentHealth = Math.Clamp(currentHealth, 0, maxHealth);
-            healthBar.value = currentHealth;
-            if (currentHealth <= 0)
+        if(currentHealth > 0) {
+            animator.SetTrigger("Hitted");
+            audioManager.PlaySFX(audioManager.player_takeHit);
+            float finalDamage = damage - armor;
+            if (currentVirtualHealth > 0)
             {
-                animator.SetBool("IsDead", true);
-                Dead();
+                currentVirtualHealth -= finalDamage;
+                currentVirtualHealth = Math.Clamp(currentVirtualHealth, 0, maxVirtualHealth);
+                virtualHealthBar.value = currentVirtualHealth;
+            }
+            else
+            {
+                currentHealth -= finalDamage;
+                currentHealth = Math.Clamp(currentHealth, 0, maxHealth);
+                healthBar.value = currentHealth;
+                if (currentHealth <= 0)
+                {
+                    animator.SetBool("IsDead", true);
+                    Dead();
+                }
             }
         }
 

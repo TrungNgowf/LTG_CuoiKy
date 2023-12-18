@@ -11,12 +11,14 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private bool doubleJump;
     AudioManager audioManager;
+    PauseScript pauseScript;
 
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        pauseScript = GameObject.FindAnyObjectByType<PauseScript>();   
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
@@ -36,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
         {
             doubleJump = false;
         }
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.PageUp))
         {
             if (isGrounded || doubleJump)
             {
@@ -45,6 +47,13 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         anim.SetBool("IsGrounded", isGrounded);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("DeathZone")){
+            pauseScript.showLossPanel();
+        }
     }
 
     private void Jump()
