@@ -142,4 +142,8 @@ public class PlayerAttack : MonoBehaviour
     {
         _specAtkArea.GetComponent<SpecialAttackArea>().gameObject.SetActive(false);
     }
+    public void resetWhenGetHit()
+    {
+
+    }
 }

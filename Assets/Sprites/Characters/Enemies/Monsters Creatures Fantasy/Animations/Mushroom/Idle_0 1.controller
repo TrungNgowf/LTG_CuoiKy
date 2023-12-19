@@ -84,7 +84,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   isFlipped: 0
-  speed: 1
+  speed: 0.5
   minX: -9
   maxX: 1
   minY: -2.5

@@ -22,21 +22,21 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 1962370150858812433, guid: 8e5c4f354551a25419a4fe71ff3d1cd0, type: 3}
-    - time: 0.083333336
+    - time: 0.1
       value: {fileID: -3289395534603688602, guid: dcf52098f1059be48a847768a9fe87b5, type: 3}
-    - time: 0.16666667
+    - time: 0.21666667
       value: {fileID: -81510026278622504, guid: d151651432da8b64aab4f83a300d0087, type: 3}
-    - time: 0.25
+    - time: 0.31666666
       value: {fileID: -2273160180842896521, guid: 4275eec1cd8d23b4491ea12768171772, type: 3}
-    - time: 0.33333334
-      value: {fileID: 3497039074077173167, guid: 01cfaf973a1a58b4aa5c9be9054ba3f7, type: 3}
     - time: 0.41666666
+      value: {fileID: 3497039074077173167, guid: 01cfaf973a1a58b4aa5c9be9054ba3f7, type: 3}
+    - time: 0.51666665
       value: {fileID: -7585019160719030543, guid: 50a3aa63ddb3202499fc21971034d0ed, type: 3}
-    - time: 0.5
+    - time: 0.6333333
       value: {fileID: -7723919864128937816, guid: 06d150c9cc835f14c83588264f646264, type: 3}
-    - time: 0.5833333
+    - time: 0.73333335
       value: {fileID: 8447648540902267047, guid: aa74e905c5c5c714381e41d0e6343eb8, type: 3}
-    - time: 0.6666667
+    - time: 0.8333333
       value: {fileID: -5076005291001642440, guid: 28ce745573c3c254aa31690fb739659f, type: 3}
     attribute: m_Sprite
     path: 
@@ -74,7 +74,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.68333334
+    m_StopTime: 0.84999996
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -94,21 +94,21 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.33333334
+  - time: 0.41666666
     functionName: setAtk3AreaActive
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.6166667
+  - time: 0.73333335
     functionName: setAtk3AreaInActive
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.6666667
+  - time: 0.8333333
     functionName: FinishAnim
     data: 
     objectReferenceParameter: {fileID: 0}

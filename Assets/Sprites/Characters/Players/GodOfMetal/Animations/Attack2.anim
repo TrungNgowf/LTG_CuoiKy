@@ -22,13 +22,13 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: -1035265683931517793, guid: 93347bceedb9b684f83ac17deae48200, type: 3}
-    - time: 0.083333336
+    - time: 0.18333334
       value: {fileID: 3089127377350310760, guid: b6ae50267db15ed43ae75f5bb0d6ec29, type: 3}
-    - time: 0.16666667
+    - time: 0.31666666
       value: {fileID: 9194489282564705556, guid: 136b4d309cc935d408c538d95d24ee09, type: 3}
-    - time: 0.25
+    - time: 0.48333332
       value: {fileID: -6090919408819997165, guid: 634d4b4fa39c49f45b91b0d1d798f91a, type: 3}
-    - time: 0.33333334
+    - time: 0.6666667
       value: {fileID: -5996433583309085012, guid: 36cf7287f1a47c74db2b3a1dbec8b2fa, type: 3}
     attribute: m_Sprite
     path: 
@@ -62,7 +62,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.35000002
+    m_StopTime: 0.68333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -82,14 +82,14 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.15
+  - time: 0.31666666
     functionName: StartCombo
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.33333334
+  - time: 0.6666667
     functionName: FinishAnim
     data: 
     objectReferenceParameter: {fileID: 0}
