@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class PlayerStats : MonoBehaviour
 {
     PauseScript pauseScript;
-    private float maxHealth = 300;
+    private float maxHealth = 500;
     [SerializeField] public float attackDamage = 20;
     [SerializeField] public float attackSpeed = 1.2f;
     [SerializeField] public float speedRun = 1.5f;

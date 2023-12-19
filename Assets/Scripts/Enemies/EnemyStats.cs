@@ -48,6 +48,10 @@ public class EnemyStats : MonoBehaviour
             UpdateColorHealthBar();
             animator.SetTrigger("Hitted");
         }
+        if(gameObject.name == "BringerOfDeath")
+        {
+            DropItemsOnBoss();
+        }
     }
     private async void Dead()
     {
@@ -93,6 +97,21 @@ public class EnemyStats : MonoBehaviour
             else if(dropItems[i].name == "HeartGem")
             {
                 if(randomNumber <= 30) Instantiate(dropItems[i], transform.position, Quaternion.identity);
+            }
+        }
+    }
+    private void DropItemsOnBoss()
+    {
+        int randomNumber = Random.Range(1, 101);
+        for (int i = 0; i < dropItems.Length; i++)
+        {
+            if (dropItems[i].name == "ManaGem")
+            {
+                if (randomNumber <= 50) Instantiate(dropItems[i], transform.position, Quaternion.identity);
+            }
+            else if (dropItems[i].name == "HeartGem")
+            {
+                if (randomNumber <= 10) Instantiate(dropItems[i], transform.position, Quaternion.identity);
             }
         }
     }

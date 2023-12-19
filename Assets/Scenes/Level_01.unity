@@ -5995,13 +5995,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   maxHealth: 2000
-  attackDamage: 80
+  attackDamage: 100
   attackSpeed: 3
   speedRun: 3
   jumpForce: 5
   armor: 30
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!114 &214489349
 MonoBehaviour:
   m_ObjectHideFlags: 0
