@@ -35,6 +35,11 @@ public class PauseScript : MonoBehaviour
         Time.timeScale = 1f;
         pausePanel.SetActive(false);
     }
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1f;
+    }
 
     public void showLossPanel()
     {

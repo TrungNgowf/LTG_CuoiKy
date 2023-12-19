@@ -44,10 +44,6 @@ public class PauseMenu : MonoBehaviour
 
     public void RestartGame()
     {
-        // Implement the logic to restart the game
-        // For example, you can reload the current scene
-        // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        // Reload the current scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1f;
     }
