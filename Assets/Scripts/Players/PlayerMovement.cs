@@ -34,11 +34,11 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector2(-1, 1);
         anim.SetBool("IsRunning", horizontalInput != 0);
 
-        if (isGrounded && !Input.GetKeyDown(KeyCode.W))
+        if (isGrounded && !Input.GetKeyDown(KeyCode.UpArrow))
         {
             doubleJump = false;
         }
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.PageUp))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             if (isGrounded || doubleJump)
             {

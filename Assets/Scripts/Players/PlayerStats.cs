@@ -64,7 +64,7 @@ public class PlayerStats : MonoBehaviour
         if(currentHealth > 0) {
             animator.SetTrigger("Hitted");
             audioManager.PlaySFX(audioManager.player_takeHit);
-            float finalDamage = damage - armor;
+            float finalDamage = Math.Clamp(damage - armor, 1, damage);
             if (currentVirtualHealth > 0)
             {
                 currentVirtualHealth -= finalDamage;

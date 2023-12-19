@@ -256,14 +256,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 300
-  attackDamage: 25
+  maxHealth: 400
+  attackDamage: 70
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 18
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!114 &4579002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1467,11 +1469,11 @@ GameObject:
   m_Component:
   - component: {fileID: 42001262}
   - component: {fileID: 42001268}
-  - component: {fileID: 42001267}
   - component: {fileID: 42001266}
   - component: {fileID: 42001265}
   - component: {fileID: 42001264}
   - component: {fileID: 42001263}
+  - component: {fileID: 42001269}
   m_Layer: 7
   m_Name: Mushroom ground
   m_TagString: Untagged
@@ -1601,15 +1603,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 250
+  maxHealth: 450
   attackDamage: 20
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 10
   healthBar: {fileID: 0}
-  dropItems: []
---- !u!60 &42001267
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
+--- !u!50 &42001268
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42001261}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!60 &42001269
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1655,39 +1686,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.08, y: 0.13}
+      - {x: -0.13, y: 0.13}
+      - {x: -0.13, y: -0.25}
+      - {x: -0.099999994, y: -0.28}
+      - {x: 0.099999994, y: -0.28}
+      - {x: 0.14, y: -0.17999999}
+      - {x: 0.14, y: 0.089999996}
   m_UseDelaunayMesh: 0
---- !u!50 &42001268
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42001261}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &45735684
 GameObject:
   m_ObjectHideFlags: 0
@@ -2629,14 +2635,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 450
-  attackDamage: 30
+  maxHealth: 520
+  attackDamage: 55
   attackSpeed: 1.2
   speedRun: 3
   jumpForce: 4
-  armor: 5
+  armor: 30
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!212 &81277598
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4037,11 +4045,11 @@ GameObject:
   m_Component:
   - component: {fileID: 147021297}
   - component: {fileID: 147021303}
-  - component: {fileID: 147021302}
   - component: {fileID: 147021301}
   - component: {fileID: 147021300}
   - component: {fileID: 147021299}
   - component: {fileID: 147021298}
+  - component: {fileID: 147021304}
   m_Layer: 7
   m_Name: Mushroom ground (4)
   m_TagString: Untagged
@@ -4171,15 +4179,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 250
-  attackDamage: 20
+  maxHealth: 600
+  attackDamage: 37
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 20
   healthBar: {fileID: 0}
-  dropItems: []
---- !u!60 &147021302
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
+--- !u!50 &147021303
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147021296}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!60 &147021304
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4225,39 +4262,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.08, y: 0.13}
+      - {x: -0.13, y: 0.13}
+      - {x: -0.13, y: -0.25}
+      - {x: -0.099999994, y: -0.28}
+      - {x: 0.099999994, y: -0.28}
+      - {x: 0.14, y: -0.17999999}
+      - {x: 0.14, y: 0.089999996}
   m_UseDelaunayMesh: 0
---- !u!50 &147021303
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 147021296}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &161411155
 GameObject:
   m_ObjectHideFlags: 0
@@ -4507,14 +4519,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 300
-  attackDamage: 25
+  maxHealth: 250
+  attackDamage: 40
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
   armor: 5
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!114 &174957788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4824,13 +4838,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f6f5254b4517544a9c8686166281b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 30
+  attackDamage: 70
   attackSpeed: 1.5
   speedRun: 1.5
   jumpForce: 3.4
-  armor: 10
-  maxVirtualHealth: 50
-  maxMana: 20
+  armor: 20
+  maxVirtualHealth: 60
+  maxMana: 75
   healthBar: {fileID: 1685078673}
   virtualHealthBar: {fileID: 311220266}
   manaBar: {fileID: 1688075708}
@@ -6560,13 +6574,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f6f5254b4517544a9c8686166281b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 30
+  attackDamage: 60
   attackSpeed: 1.5
   speedRun: 1.5
   jumpForce: 3.4
   armor: 10
-  maxVirtualHealth: 50
-  maxMana: 50
+  maxVirtualHealth: 100
+  maxMana: 70
   healthBar: {fileID: 1662078479}
   virtualHealthBar: {fileID: 1949959842}
   manaBar: {fileID: 707864135}
@@ -7024,11 +7038,11 @@ GameObject:
   m_Component:
   - component: {fileID: 252683031}
   - component: {fileID: 252683030}
-  - component: {fileID: 252683029}
   - component: {fileID: 252683028}
   - component: {fileID: 252683027}
   - component: {fileID: 252683026}
   - component: {fileID: 252683025}
+  - component: {fileID: 252683032}
   m_Layer: 7
   m_Name: Mushroom bridge
   m_TagString: Untagged
@@ -7142,15 +7156,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 250
+  maxHealth: 450
   attackDamage: 20
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 10
   healthBar: {fileID: 0}
-  dropItems: []
---- !u!60 &252683029
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
+--- !u!50 &252683030
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252683024}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!4 &252683031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252683024}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.0532508, y: 2.07, z: -0.16027951}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 591315758}
+  m_Father: {fileID: 1612704431}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &252683032
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7196,55 +7255,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.08, y: 0.13}
+      - {x: -0.13, y: 0.13}
+      - {x: -0.13, y: -0.25}
+      - {x: -0.099999994, y: -0.28}
+      - {x: 0.099999994, y: -0.28}
+      - {x: 0.14, y: -0.17999999}
+      - {x: 0.14, y: 0.089999996}
   m_UseDelaunayMesh: 0
---- !u!50 &252683030
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 252683024}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!4 &252683031
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 252683024}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.0532508, y: 2.07, z: -0.16027951}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 591315758}
-  m_Father: {fileID: 1612704431}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &255347724
 GameObject:
   m_ObjectHideFlags: 0
@@ -8207,13 +8225,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f6f5254b4517544a9c8686166281b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 30
+  attackDamage: 80
   attackSpeed: 1.5
   speedRun: 1.5
   jumpForce: 3.4
   armor: 10
-  maxVirtualHealth: 50
-  maxMana: 20
+  maxVirtualHealth: 40
+  maxMana: 80
   healthBar: {fileID: 58554227}
   virtualHealthBar: {fileID: 545957259}
   manaBar: {fileID: 1483016504}
@@ -10427,14 +10445,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 450
+  maxHealth: 300
   attackDamage: 30
   attackSpeed: 1.2
   speedRun: 3
   jumpForce: 4
-  armor: 5
+  armor: 10
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!50 &358407000
 Rigidbody2D:
   serializedVersion: 4
@@ -10489,11 +10509,11 @@ GameObject:
   m_Component:
   - component: {fileID: 360656921}
   - component: {fileID: 360656927}
-  - component: {fileID: 360656926}
   - component: {fileID: 360656925}
   - component: {fileID: 360656924}
   - component: {fileID: 360656923}
   - component: {fileID: 360656922}
+  - component: {fileID: 360656928}
   m_Layer: 7
   m_Name: Mushroom ground (2)
   m_TagString: Untagged
@@ -10623,15 +10643,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 250
-  attackDamage: 20
+  maxHealth: 700
+  attackDamage: 45
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 25
   healthBar: {fileID: 0}
-  dropItems: []
---- !u!60 &360656926
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
+--- !u!50 &360656927
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360656920}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!60 &360656928
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10677,39 +10726,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.08, y: 0.13}
+      - {x: -0.13, y: 0.13}
+      - {x: -0.13, y: -0.25}
+      - {x: -0.099999994, y: -0.28}
+      - {x: 0.099999994, y: -0.28}
+      - {x: 0.14, y: -0.17999999}
+      - {x: 0.14, y: 0.089999996}
   m_UseDelaunayMesh: 0
---- !u!50 &360656927
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 360656920}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &361093125
 GameObject:
   m_ObjectHideFlags: 0
@@ -11114,14 +11138,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 300
-  attackDamage: 25
+  maxHealth: 400
+  attackDamage: 70
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 18
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!114 &377488806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11708,11 +11734,11 @@ GameObject:
   m_Component:
   - component: {fileID: 397169761}
   - component: {fileID: 397169767}
-  - component: {fileID: 397169766}
   - component: {fileID: 397169765}
   - component: {fileID: 397169764}
   - component: {fileID: 397169763}
   - component: {fileID: 397169762}
+  - component: {fileID: 397169768}
   m_Layer: 7
   m_Name: Mushroom ground (3)
   m_TagString: Untagged
@@ -11842,15 +11868,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 250
-  attackDamage: 20
+  maxHealth: 520
+  attackDamage: 30
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 15
   healthBar: {fileID: 0}
-  dropItems: []
---- !u!60 &397169766
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
+--- !u!50 &397169767
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397169760}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!60 &397169768
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11896,39 +11951,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.08, y: 0.13}
+      - {x: -0.13, y: 0.13}
+      - {x: -0.13, y: -0.25}
+      - {x: -0.099999994, y: -0.28}
+      - {x: 0.099999994, y: -0.28}
+      - {x: 0.14, y: -0.17999999}
+      - {x: 0.14, y: 0.089999996}
   m_UseDelaunayMesh: 0
---- !u!50 &397169767
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 397169760}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &400249488
 GameObject:
   m_ObjectHideFlags: 0
@@ -12368,7 +12398,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 745, y: 435}
+  m_AnchoredPosition: {x: 869, y: 456}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &426481145
@@ -14186,13 +14216,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   maxHealth: 300
-  attackDamage: 25
+  attackDamage: 50
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 10
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!114 &512888339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15317,12 +15349,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f6f5254b4517544a9c8686166281b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 30
+  attackDamage: 60
   attackSpeed: 1.5
   speedRun: 1.5
   jumpForce: 3.4
-  armor: 10
-  maxVirtualHealth: 50
+  armor: 40
+  maxVirtualHealth: 40
   maxMana: 50
   healthBar: {fileID: 345881939}
   virtualHealthBar: {fileID: 677600526}
@@ -15862,14 +15894,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 300
-  attackDamage: 25
+  maxHealth: 250
+  attackDamage: 40
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
   armor: 5
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!114 &563635369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16142,11 +16176,11 @@ GameObject:
   m_Component:
   - component: {fileID: 570459328}
   - component: {fileID: 570459334}
-  - component: {fileID: 570459333}
   - component: {fileID: 570459332}
   - component: {fileID: 570459331}
   - component: {fileID: 570459330}
   - component: {fileID: 570459329}
+  - component: {fileID: 570459335}
   m_Layer: 7
   m_Name: Mushroom ground (2)
   m_TagString: Untagged
@@ -16276,15 +16310,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 250
-  attackDamage: 20
+  maxHealth: 600
+  attackDamage: 37
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 20
   healthBar: {fileID: 0}
-  dropItems: []
---- !u!60 &570459333
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
+--- !u!50 &570459334
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570459327}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!60 &570459335
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16330,39 +16393,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.08, y: 0.13}
+      - {x: -0.13, y: 0.13}
+      - {x: -0.13, y: -0.25}
+      - {x: -0.099999994, y: -0.28}
+      - {x: 0.099999994, y: -0.28}
+      - {x: 0.14, y: -0.17999999}
+      - {x: 0.14, y: 0.089999996}
   m_UseDelaunayMesh: 0
---- !u!50 &570459334
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 570459327}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &571396349
 GameObject:
   m_ObjectHideFlags: 0
@@ -17912,11 +17950,11 @@ GameObject:
   m_Component:
   - component: {fileID: 644521338}
   - component: {fileID: 644521344}
-  - component: {fileID: 644521343}
   - component: {fileID: 644521342}
   - component: {fileID: 644521341}
   - component: {fileID: 644521340}
   - component: {fileID: 644521339}
+  - component: {fileID: 644521345}
   m_Layer: 7
   m_Name: Mushroom ground (4)
   m_TagString: Untagged
@@ -18046,15 +18084,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 250
-  attackDamage: 20
+  maxHealth: 700
+  attackDamage: 45
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 25
   healthBar: {fileID: 0}
-  dropItems: []
---- !u!60 &644521343
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
+--- !u!50 &644521344
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644521337}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!60 &644521345
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18100,39 +18167,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.08, y: 0.13}
+      - {x: -0.13, y: 0.13}
+      - {x: -0.13, y: -0.25}
+      - {x: -0.099999994, y: -0.28}
+      - {x: 0.099999994, y: -0.28}
+      - {x: 0.14, y: -0.17999999}
+      - {x: 0.14, y: 0.089999996}
   m_UseDelaunayMesh: 0
---- !u!50 &644521344
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 644521337}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &645982506
 GameObject:
   m_ObjectHideFlags: 0
@@ -18700,14 +18742,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 450
-  attackDamage: 30
+  maxHealth: 380
+  attackDamage: 40
   attackSpeed: 1.2
   speedRun: 3
   jumpForce: 4
-  armor: 5
+  armor: 20
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!212 &656619896
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18944,11 +18988,11 @@ GameObject:
   m_Component:
   - component: {fileID: 667076551}
   - component: {fileID: 667076557}
-  - component: {fileID: 667076556}
   - component: {fileID: 667076555}
   - component: {fileID: 667076554}
   - component: {fileID: 667076553}
   - component: {fileID: 667076552}
+  - component: {fileID: 667076558}
   m_Layer: 7
   m_Name: Mushroom ground (1)
   m_TagString: Untagged
@@ -19078,15 +19122,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 250
+  maxHealth: 450
   attackDamage: 20
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 10
   healthBar: {fileID: 0}
-  dropItems: []
---- !u!60 &667076556
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
+--- !u!50 &667076557
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667076550}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!60 &667076558
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19132,39 +19205,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.08, y: 0.13}
+      - {x: -0.13, y: 0.13}
+      - {x: -0.13, y: -0.25}
+      - {x: -0.099999994, y: -0.28}
+      - {x: 0.099999994, y: -0.28}
+      - {x: 0.14, y: -0.17999999}
+      - {x: 0.14, y: 0.089999996}
   m_UseDelaunayMesh: 0
---- !u!50 &667076557
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 667076550}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &670304197
 GameObject:
   m_ObjectHideFlags: 0
@@ -19438,11 +19486,11 @@ GameObject:
   m_Component:
   - component: {fileID: 690780007}
   - component: {fileID: 690780013}
-  - component: {fileID: 690780012}
   - component: {fileID: 690780011}
   - component: {fileID: 690780010}
   - component: {fileID: 690780009}
   - component: {fileID: 690780008}
+  - component: {fileID: 690780014}
   m_Layer: 7
   m_Name: Mushroom ground (3)
   m_TagString: Untagged
@@ -19572,15 +19620,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 250
-  attackDamage: 20
+  maxHealth: 700
+  attackDamage: 45
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 25
   healthBar: {fileID: 0}
-  dropItems: []
---- !u!60 &690780012
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
+--- !u!50 &690780013
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690780006}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!60 &690780014
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19626,39 +19703,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.08, y: 0.13}
+      - {x: -0.13, y: 0.13}
+      - {x: -0.13, y: -0.25}
+      - {x: -0.099999994, y: -0.28}
+      - {x: 0.099999994, y: -0.28}
+      - {x: 0.14, y: -0.17999999}
+      - {x: 0.14, y: 0.089999996}
   m_UseDelaunayMesh: 0
---- !u!50 &690780013
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 690780006}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &693734164
 GameObject:
   m_ObjectHideFlags: 0
@@ -20511,14 +20563,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 450
-  attackDamage: 30
+  maxHealth: 380
+  attackDamage: 40
   attackSpeed: 1.2
   speedRun: 3
   jumpForce: 4
-  armor: 5
+  armor: 20
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!212 &741312389
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22495,13 +22549,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f6f5254b4517544a9c8686166281b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 30
+  attackDamage: 60
   attackSpeed: 1.5
   speedRun: 1.5
   jumpForce: 3.4
   armor: 10
-  maxVirtualHealth: 50
-  maxMana: 20
+  maxVirtualHealth: 70
+  maxMana: 70
   healthBar: {fileID: 1910482833}
   virtualHealthBar: {fileID: 1737573899}
   manaBar: {fileID: 617064614}
@@ -23194,13 +23248,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   maxHealth: 300
-  attackDamage: 25
+  attackDamage: 50
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 10
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!114 &852626461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26174,14 +26230,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 300
-  attackDamage: 25
+  maxHealth: 350
+  attackDamage: 60
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 15
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!114 &979754249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26573,14 +26631,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 450
-  attackDamage: 30
+  maxHealth: 380
+  attackDamage: 40
   attackSpeed: 1.2
   speedRun: 3
   jumpForce: 4
-  armor: 5
+  armor: 20
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!212 &981611023
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26839,14 +26899,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 450
+  maxHealth: 300
   attackDamage: 30
   attackSpeed: 1.2
   speedRun: 3
   jumpForce: 4
-  armor: 5
+  armor: 20
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!212 &985406681
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26952,14 +27014,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 300
-  attackDamage: 25
+  maxHealth: 350
+  attackDamage: 60
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 15
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!114 &988068096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27337,11 +27401,11 @@ GameObject:
   m_Component:
   - component: {fileID: 996520171}
   - component: {fileID: 996520177}
-  - component: {fileID: 996520176}
   - component: {fileID: 996520175}
   - component: {fileID: 996520174}
   - component: {fileID: 996520173}
   - component: {fileID: 996520172}
+  - component: {fileID: 996520178}
   m_Layer: 7
   m_Name: Mushroom ground (2)
   m_TagString: Untagged
@@ -27471,15 +27535,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 250
-  attackDamage: 20
+  maxHealth: 600
+  attackDamage: 37
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 20
   healthBar: {fileID: 0}
-  dropItems: []
---- !u!60 &996520176
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
+--- !u!50 &996520177
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996520170}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!60 &996520178
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -27525,39 +27618,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.08, y: 0.13}
+      - {x: -0.13, y: 0.13}
+      - {x: -0.13, y: -0.25}
+      - {x: -0.099999994, y: -0.28}
+      - {x: 0.099999994, y: -0.28}
+      - {x: 0.14, y: -0.17999999}
+      - {x: 0.14, y: 0.089999996}
   m_UseDelaunayMesh: 0
---- !u!50 &996520177
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 996520170}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &998962973
 GameObject:
   m_ObjectHideFlags: 0
@@ -27684,13 +27752,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f6f5254b4517544a9c8686166281b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 30
+  attackDamage: 50
   attackSpeed: 1.5
   speedRun: 1.5
   jumpForce: 3.4
   armor: 10
   maxVirtualHealth: 50
-  maxMana: 50
+  maxMana: 100
   healthBar: {fileID: 1925070197}
   virtualHealthBar: {fileID: 486983879}
   manaBar: {fileID: 1199706545}
@@ -28012,14 +28080,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 300
-  attackDamage: 25
+  maxHealth: 400
+  attackDamage: 70
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 18
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!114 &1014526142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29664,13 +29734,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f6f5254b4517544a9c8686166281b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 30
+  attackDamage: 70
   attackSpeed: 1.5
   speedRun: 1.5
   jumpForce: 3.4
-  armor: 10
+  armor: 20
   maxVirtualHealth: 50
-  maxMana: 20
+  maxMana: 50
   healthBar: {fileID: 967938900}
   virtualHealthBar: {fileID: 327293888}
   manaBar: {fileID: 837892915}
@@ -30058,11 +30128,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1106748016}
   - component: {fileID: 1106748022}
-  - component: {fileID: 1106748021}
   - component: {fileID: 1106748020}
   - component: {fileID: 1106748019}
   - component: {fileID: 1106748018}
   - component: {fileID: 1106748017}
+  - component: {fileID: 1106748023}
   m_Layer: 7
   m_Name: Mushroom ground (2)
   m_TagString: Untagged
@@ -30192,15 +30262,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 250
-  attackDamage: 20
+  maxHealth: 700
+  attackDamage: 45
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 25
   healthBar: {fileID: 0}
-  dropItems: []
---- !u!60 &1106748021
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
+--- !u!50 &1106748022
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106748015}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!60 &1106748023
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30246,39 +30345,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.08, y: 0.13}
+      - {x: -0.13, y: 0.13}
+      - {x: -0.13, y: -0.25}
+      - {x: -0.099999994, y: -0.28}
+      - {x: 0.099999994, y: -0.28}
+      - {x: 0.14, y: -0.17999999}
+      - {x: 0.14, y: 0.089999996}
   m_UseDelaunayMesh: 0
---- !u!50 &1106748022
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106748015}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1110105776
 GameObject:
   m_ObjectHideFlags: 0
@@ -30633,14 +30707,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 450
-  attackDamage: 30
+  maxHealth: 520
+  attackDamage: 55
   attackSpeed: 1.2
   speedRun: 3
   jumpForce: 4
-  armor: 5
+  armor: 30
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!212 &1120494572
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32763,14 +32839,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 300
-  attackDamage: 25
+  maxHealth: 400
+  attackDamage: 70
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 18
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!114 &1208826949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33896,13 +33974,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   maxHealth: 450
-  attackDamage: 30
+  attackDamage: 46
   attackSpeed: 1.2
   speedRun: 3
   jumpForce: 4
-  armor: 5
+  armor: 25
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!212 &1268679377
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34781,7 +34861,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 236, y: -33.49}
+  m_AnchoredPosition: {x: 236, y: -26}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1329261833
@@ -36379,14 +36459,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 450
+  maxHealth: 300
   attackDamage: 30
   attackSpeed: 1.2
   speedRun: 3
   jumpForce: 4
-  armor: 5
+  armor: 10
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!212 &1402864114
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38734,7 +38816,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21, y: -38.3}
+  m_AnchoredPosition: {x: 2, y: -38.3}
   m_SizeDelta: {x: 298.8223, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1523021245
@@ -38759,8 +38841,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: You won!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -38784,8 +38866,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -38822,7 +38904,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -10.957336, y: 0, z: -23.480103, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -39787,14 +39869,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 300
-  attackDamage: 25
+  maxHealth: 250
+  attackDamage: 40
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
   armor: 5
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!114 &1548717576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41273,7 +41357,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 236, y: -33.49}
+  m_AnchoredPosition: {x: 136, y: -75}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1605065426
@@ -41352,7 +41436,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1693395098552743678, guid: 236587ec711348a4792e0060efb1bf73, type: 3}
+  m_Sprite: {fileID: -6290070328808169283, guid: 236587ec711348a4792e0060efb1bf73, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -43722,13 +43806,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   maxHealth: 300
-  attackDamage: 25
+  attackDamage: 50
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 10
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!114 &1688346278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44549,7 +44635,7 @@ MonoBehaviour:
   godOfEarth: {fileID: 232690968}
   godOfMetal: {fileID: 174996399}
   timerCanvas: {fileID: 883528443}
-  timeTransform: 30
+  timeTransform: 25
 --- !u!4 &1720348566
 Transform:
   m_ObjectHideFlags: 0
@@ -46058,11 +46144,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1764702846}
   - component: {fileID: 1764702852}
-  - component: {fileID: 1764702851}
   - component: {fileID: 1764702850}
   - component: {fileID: 1764702849}
   - component: {fileID: 1764702848}
   - component: {fileID: 1764702847}
+  - component: {fileID: 1764702853}
   m_Layer: 7
   m_Name: Mushroom ground (2)
   m_TagString: Untagged
@@ -46192,15 +46278,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 250
-  attackDamage: 20
+  maxHealth: 520
+  attackDamage: 30
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 15
   healthBar: {fileID: 0}
-  dropItems: []
---- !u!60 &1764702851
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
+--- !u!50 &1764702852
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764702845}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!60 &1764702853
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -46246,39 +46361,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.08, y: 0.13}
+      - {x: -0.13, y: 0.13}
+      - {x: -0.13, y: -0.25}
+      - {x: -0.099999994, y: -0.28}
+      - {x: 0.099999994, y: -0.28}
+      - {x: 0.14, y: -0.17999999}
+      - {x: 0.14, y: 0.089999996}
   m_UseDelaunayMesh: 0
---- !u!50 &1764702852
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764702845}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1766172888
 GameObject:
   m_ObjectHideFlags: 0
@@ -46463,7 +46553,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21, y: -38.299927}
+  m_AnchoredPosition: {x: -8, y: 41}
   m_SizeDelta: {x: 298.8223, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1772656096
@@ -46488,14 +46578,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: You loss!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278910967
+    rgba: 4278979327
   m_fontColor: {r: 1, g: 0.039215684, b: 0.048639577, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -46508,7 +46598,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
+  m_TextStyleHashCode: 97690656
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -46551,7 +46641,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -17.13153, y: 0, z: -59.143433, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -46691,14 +46781,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 300
-  attackDamage: 25
+  maxHealth: 350
+  attackDamage: 60
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 15
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!114 &1790196925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47334,8 +47426,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 400}
+  m_AnchoredPosition: {x: 0, y: -19.333618}
+  m_SizeDelta: {x: 1000, y: 512.175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1808126409
 MonoBehaviour:
@@ -47471,11 +47563,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1821918822}
   - component: {fileID: 1821918828}
-  - component: {fileID: 1821918827}
   - component: {fileID: 1821918826}
   - component: {fileID: 1821918825}
   - component: {fileID: 1821918824}
   - component: {fileID: 1821918823}
+  - component: {fileID: 1821918829}
   m_Layer: 7
   m_Name: Mushroom ground (3)
   m_TagString: Untagged
@@ -47605,15 +47697,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 250
-  attackDamage: 20
+  maxHealth: 600
+  attackDamage: 37
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 20
   healthBar: {fileID: 0}
-  dropItems: []
---- !u!60 &1821918827
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
+--- !u!50 &1821918828
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821918821}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!60 &1821918829
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -47659,39 +47780,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.08, y: 0.13}
+      - {x: -0.13, y: 0.13}
+      - {x: -0.13, y: -0.25}
+      - {x: -0.099999994, y: -0.28}
+      - {x: 0.099999994, y: -0.28}
+      - {x: 0.14, y: -0.17999999}
+      - {x: 0.14, y: 0.089999996}
   m_UseDelaunayMesh: 0
---- !u!50 &1821918828
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821918821}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1824546888
 GameObject:
   m_ObjectHideFlags: 0
@@ -48843,11 +48939,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1865171657}
   - component: {fileID: 1865171663}
-  - component: {fileID: 1865171662}
   - component: {fileID: 1865171661}
   - component: {fileID: 1865171660}
   - component: {fileID: 1865171659}
   - component: {fileID: 1865171658}
+  - component: {fileID: 1865171664}
   m_Layer: 7
   m_Name: Mushroom ground (2)
   m_TagString: Untagged
@@ -48977,15 +49073,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 250
-  attackDamage: 20
+  maxHealth: 520
+  attackDamage: 30
   attackSpeed: 1.2
   speedRun: 2
   jumpForce: 4
-  armor: 5
+  armor: 15
   healthBar: {fileID: 0}
-  dropItems: []
---- !u!60 &1865171662
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
+--- !u!50 &1865171663
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865171656}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!60 &1865171664
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -49031,39 +49156,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.08, y: 0.13}
+      - {x: -0.13, y: 0.13}
+      - {x: -0.13, y: -0.25}
+      - {x: -0.099999994, y: -0.28}
+      - {x: 0.099999994, y: -0.28}
+      - {x: 0.14, y: -0.17999999}
+      - {x: 0.14, y: 0.089999996}
   m_UseDelaunayMesh: 0
---- !u!50 &1865171663
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1865171656}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1869065205
 GameObject:
   m_ObjectHideFlags: 0
@@ -51138,7 +51238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -232, y: -33.49}
+  m_AnchoredPosition: {x: -124, y: -75}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1946038401
@@ -52179,14 +52279,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 450
-  attackDamage: 30
+  maxHealth: 520
+  attackDamage: 55
   attackSpeed: 1.2
   speedRun: 3
   jumpForce: 4
-  armor: 5
+  armor: 30
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!212 &1986797482
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -53557,7 +53659,7 @@ GameObject:
   - component: {fileID: 2036401208}
   - component: {fileID: 2036401207}
   m_Layer: 5
-  m_Name: Save
+  m_Name: Replay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53658,7 +53760,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6702938897597797321, guid: 236587ec711348a4792e0060efb1bf73, type: 3}
+  m_Sprite: {fileID: -6290070328808169283, guid: 236587ec711348a4792e0060efb1bf73, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -54791,14 +54893,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 450
-  attackDamage: 30
+  maxHealth: 520
+  attackDamage: 55
   attackSpeed: 1.2
   speedRun: 3
   jumpForce: 4
-  armor: 5
+  armor: 30
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!212 &2058383481
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -56348,14 +56452,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 450
+  maxHealth: 300
   attackDamage: 30
   attackSpeed: 1.2
   speedRun: 3
   jumpForce: 4
-  armor: 5
+  armor: 10
   healthBar: {fileID: 0}
-  dropItems: []
+  dropItems:
+  - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
+  - {fileID: 4793529945180671277, guid: 5cc23d11789a0ca4f9b96e2269ca770d, type: 3}
 --- !u!212 &2140709683
 SpriteRenderer:
   m_ObjectHideFlags: 0

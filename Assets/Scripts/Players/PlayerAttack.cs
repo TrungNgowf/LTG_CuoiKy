@@ -91,7 +91,7 @@ public class PlayerAttack : MonoBehaviour
     }
     public void Combo()
     {
-        if (Input.GetKeyDown(KeyCode.M) && !isAtk)
+        if (Input.GetKeyDown(KeyCode.C) && !isAtk)
         {
             isAtk = true;
             anim.SetTrigger("Attack" + comboIndex);

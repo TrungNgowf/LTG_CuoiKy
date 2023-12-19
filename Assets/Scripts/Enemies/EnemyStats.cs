@@ -83,9 +83,17 @@ public class EnemyStats : MonoBehaviour
     }
     private void DropItems()
     {
+        int randomNumber = Random.Range(1, 101);
         for (int i = 0; i < dropItems.Length; i++)
         {
-            Instantiate(dropItems[i], transform.position, Quaternion.identity);
+            if (dropItems[i].name == "ManaGem")
+            {
+                if(randomNumber <= 100) Instantiate(dropItems[i], transform.position, Quaternion.identity);
+            }
+            else if(dropItems[i].name == "HeartGem")
+            {
+                if(randomNumber <= 30) Instantiate(dropItems[i], transform.position, Quaternion.identity);
+            }
         }
     }
 }
