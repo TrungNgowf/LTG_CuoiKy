@@ -4896,8 +4896,8 @@ MonoBehaviour:
   stat: {fileID: 0}
   attack_01: {x: 0.11, y: 0.27, z: 0}
   attack_02: {x: 0.16, y: 0.26, z: 0}
-  attackRange1: 0.2
-  attackRange2: 0.2
+  attackRange1: 0.3
+  attackRange2: 0.3
   enemyLayers:
     serializedVersion: 2
     m_Bits: 128
@@ -5995,11 +5995,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   maxHealth: 2000
-  attackDamage: 40
+  attackDamage: 80
   attackSpeed: 3
   speedRun: 3
   jumpForce: 5
-  armor: 10
+  armor: 30
   healthBar: {fileID: 0}
   dropItems: []
 --- !u!114 &214489349
@@ -6630,10 +6630,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stat: {fileID: 0}
-  attack_01: {x: 0.29, y: 0.32, z: 0}
-  attack_02: {x: 0.29, y: 0.32, z: 0}
-  attackRange1: 0.15
-  attackRange2: 0.15
+  attack_01: {x: 0.29, y: 0.25, z: 0}
+  attack_02: {x: 0.29, y: 0.25, z: 0}
+  attackRange1: 0.3
+  attackRange2: 0.3
   enemyLayers:
     serializedVersion: 2
     m_Bits: 128
@@ -7877,7 +7877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799f11d7671fc5643a23ff1dc129af84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spAtkRatio: 2
+  spAtkRatio: 1.75
 --- !u!4 &270449030
 Transform:
   m_ObjectHideFlags: 0
@@ -8283,8 +8283,8 @@ MonoBehaviour:
   stat: {fileID: 0}
   attack_01: {x: 0.14, y: 0.25, z: 0}
   attack_02: {x: 0.17, y: 0.23, z: 0}
-  attackRange1: 0.15
-  attackRange2: 0.2
+  attackRange1: 0.2
+  attackRange2: 0.25
   enemyLayers:
     serializedVersion: 2
     m_Bits: 128
@@ -15407,8 +15407,8 @@ MonoBehaviour:
   stat: {fileID: 0}
   attack_01: {x: 0.2, y: 0.32, z: 0}
   attack_02: {x: 0.11, y: 0.3, z: 0}
-  attackRange1: 0.2
-  attackRange2: 0.2
+  attackRange1: 0.3
+  attackRange2: 0.3
   enemyLayers:
     serializedVersion: 2
     m_Bits: 128
@@ -22765,8 +22765,8 @@ MonoBehaviour:
   stat: {fileID: 0}
   attack_01: {x: 0.27, y: 0.25, z: 0}
   attack_02: {x: 0.22, y: 0.24, z: 0}
-  attackRange1: 0.1
-  attackRange2: 0.23
+  attackRange1: 0.2
+  attackRange2: 0.3
   enemyLayers:
     serializedVersion: 2
     m_Bits: 128
@@ -29239,7 +29239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799f11d7671fc5643a23ff1dc129af84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spAtkRatio: 2
+  spAtkRatio: 2.2
 --- !u!4 &1035637309
 Transform:
   m_ObjectHideFlags: 0
@@ -35686,7 +35686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799f11d7671fc5643a23ff1dc129af84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spAtkRatio: 2
+  spAtkRatio: 2.4
 --- !u!4 &1361643745
 Transform:
   m_ObjectHideFlags: 0
@@ -41646,7 +41646,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 256643653}
         m_TargetAssemblyTypeName: PauseScript, Assembly-CSharp
-        m_MethodName: newGame
+        m_MethodName: RestartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -43857,7 +43857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799f11d7671fc5643a23ff1dc129af84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spAtkRatio: 2
+  spAtkRatio: 2.3
 --- !u!4 &1686383176
 Transform:
   m_ObjectHideFlags: 0
@@ -44875,7 +44875,7 @@ MonoBehaviour:
   godOfEarth: {fileID: 232690968}
   godOfMetal: {fileID: 174996399}
   timerCanvas: {fileID: 883528443}
-  timeTransform: 25
+  timeTransform: 30
 --- !u!4 &1720348566
 Transform:
   m_ObjectHideFlags: 0

@@ -83,7 +83,7 @@ public class PlayerAttack : MonoBehaviour
     }
     private void SpecialAttack()
     {
-        if (Input.GetKeyDown(KeyCode.N) && stat.checkMaxMana())
+        if (Input.GetKeyDown(KeyCode.X) && stat.checkMaxMana())
         {
             anim.SetTrigger("SpAtk");
             stat.setCurrentMana(0);
@@ -144,6 +144,8 @@ public class PlayerAttack : MonoBehaviour
     }
     public void resetWhenGetHit()
     {
-
+        comboIndex = 1;
+        setAtk3AreaInActive();
+        setSpecialAtkAreaInActive();
     }
 }

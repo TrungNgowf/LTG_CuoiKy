@@ -216,7 +216,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1
+        time: 0.93333334
         value: 0
         inSlope: 0
         outSlope: 0
@@ -415,11 +415,11 @@ AnimationClip:
       value: {fileID: 2049914063, guid: b349679b3d01fca4aa119141d8e06bc4, type: 3}
     - time: 0.9166667
       value: {fileID: -1414976004, guid: f3d7f24b845a9cd45b04ac962482bbec, type: 3}
-    - time: 1
+    - time: 0.93333334
       value: {fileID: 1172337063, guid: 11c6b31a7740032468ea8a1521a48a32, type: 3}
-    - time: 1.0833334
+    - time: 0.95
       value: {fileID: -767236791, guid: 52c49c3eb04d0cd4a9d115832e9b55e2, type: 3}
-    - time: 1.1666666
+    - time: 0.96666664
       value: {fileID: 560559240, guid: 1e9c22240ce2be14aa4a41f45a63e66a, type: 3}
     attribute: m_Sprite
     path: 
@@ -560,7 +560,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.1833333
+    m_StopTime: 0.9833333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -617,7 +617,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1
+        time: 0.93333334
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1304,14 +1304,14 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.9166667
+  - time: 0.8333333
     functionName: setAtk3AreaInActive
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.1666666
+  - time: 0.96666664
     functionName: FinishAnim
     data: 
     objectReferenceParameter: {fileID: 0}
