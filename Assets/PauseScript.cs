@@ -9,6 +9,13 @@ public class PauseScript : MonoBehaviour
     [SerializeField] GameObject wonPanel;
     [SerializeField] GameObject pausePanel;
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            OpenMenu();
+        }
+    }
     public void OpenMenu()
     {
         pausePanel.SetActive(true);
