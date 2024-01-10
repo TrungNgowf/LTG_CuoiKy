@@ -337,6 +337,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 18
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -1759,6 +1760,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 10
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -2791,6 +2793,7 @@ MonoBehaviour:
   speedRun: 3
   jumpForce: 4
   armor: 30
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -4335,6 +4338,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 20
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -4833,6 +4837,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 5
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -6229,6 +6234,7 @@ MonoBehaviour:
   speedRun: 3
   jumpForce: 5
   armor: 30
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -7472,6 +7478,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 10
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -7763,6 +7770,8 @@ RectTransform:
   - {fileID: 251124504}
   - {fileID: 1749236963}
   - {fileID: 803791793}
+  - {fileID: 1655068881}
+  - {fileID: 1990659969}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -10841,6 +10850,7 @@ MonoBehaviour:
   speedRun: 3
   jumpForce: 4
   armor: 10
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -11039,6 +11049,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 25
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -11571,6 +11582,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 18
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -12301,6 +12313,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 15
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -14648,6 +14661,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 10
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -16402,6 +16416,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 5
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -16818,6 +16833,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 20
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -18708,6 +18724,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 25
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -19366,6 +19383,7 @@ MonoBehaviour:
   speedRun: 3
   jumpForce: 4
   armor: 20
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -19746,6 +19764,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 10
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -20244,6 +20263,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 25
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -21187,6 +21207,7 @@ MonoBehaviour:
   speedRun: 3
   jumpForce: 4
   armor: 20
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -24070,6 +24091,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 10
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -27053,6 +27075,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 15
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -27454,6 +27477,7 @@ MonoBehaviour:
   speedRun: 3
   jumpForce: 4
   armor: 20
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -27722,6 +27746,7 @@ MonoBehaviour:
   speedRun: 3
   jumpForce: 4
   armor: 20
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -27837,6 +27862,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 15
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -28358,6 +28384,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 20
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -28903,6 +28930,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 18
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -31160,6 +31188,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 25
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -31605,6 +31634,7 @@ MonoBehaviour:
   speedRun: 3
   jumpForce: 4
   armor: 30
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -33737,6 +33767,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 18
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -34871,6 +34902,7 @@ MonoBehaviour:
   speedRun: 3
   jumpForce: 4
   armor: 25
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -37515,6 +37547,7 @@ MonoBehaviour:
   speedRun: 3
   jumpForce: 4
   armor: 10
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -41082,6 +41115,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 5
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -43933,6 +43967,98 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 9
   m_TargetDisplay: 0
+--- !u!1 &1655068880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1655068881}
+  - component: {fileID: 1655068883}
+  - component: {fileID: 1655068882}
+  - component: {fileID: 1655068884}
+  m_Layer: 5
+  m_Name: Score
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1655068881
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655068880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 256643657}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 774, y: -504}
+  m_SizeDelta: {x: 315.8067, y: 47.8766}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1655068882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655068880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.03938675, g: 1, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
+    m_FontSize: 45
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 45
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Score: 1000'
+--- !u!222 &1655068883
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655068880}
+  m_CullTransparentMesh: 1
+--- !u!114 &1655068884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655068880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60278aee2f8fd2c489bf3d674fabefa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1661316196
 GameObject:
   m_ObjectHideFlags: 0
@@ -45055,6 +45181,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 10
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -47528,6 +47655,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 15
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -48031,6 +48159,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 15
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -48984,6 +49113,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 20
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -50435,6 +50565,7 @@ MonoBehaviour:
   speedRun: 2
   jumpForce: 4
   armor: 15
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -53641,6 +53772,7 @@ MonoBehaviour:
   speedRun: 3
   jumpForce: 4
   armor: 30
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -53835,6 +53967,98 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 9
   m_TargetDisplay: 0
+--- !u!1 &1990659968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1990659969}
+  - component: {fileID: 1990659972}
+  - component: {fileID: 1990659971}
+  - component: {fileID: 1990659970}
+  m_Layer: 5
+  m_Name: Time
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1990659969
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990659968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 256643657}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -782.0454, y: -504}
+  m_SizeDelta: {x: 313.7159, y: 47.8766}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1990659970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990659968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f1c3506ea2b32b48a45c94d09ac3072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1990659971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990659968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
+    m_FontSize: 45
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 45
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Time: 59:59'
+--- !u!222 &1990659972
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990659968}
+  m_CullTransparentMesh: 1
 --- !u!1 &1998695729
 GameObject:
   m_ObjectHideFlags: 0
@@ -56292,6 +56516,7 @@ MonoBehaviour:
   speedRun: 3
   jumpForce: 4
   armor: 30
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}
@@ -57888,6 +58113,7 @@ MonoBehaviour:
   speedRun: 3
   jumpForce: 4
   armor: 10
+  scoreAmount: 10
   healthBar: {fileID: 0}
   dropItems:
   - {fileID: 8692918360995280546, guid: 3c47b3c9dd1336a42bec5787c07646e1, type: 3}

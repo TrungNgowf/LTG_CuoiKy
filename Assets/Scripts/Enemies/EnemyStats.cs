@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EnemyStats : MonoBehaviour
@@ -13,10 +14,12 @@ public class EnemyStats : MonoBehaviour
     [SerializeField] public float speedRun = 2;
     [SerializeField] public float jumpForce = 4;
     [SerializeField] public float armor = 5;
+    [SerializeField] public int scoreAmount = 10;
     PauseScript pauseScript;
     [SerializeField] public Slider healthBar;
     float currentHealth;
     public GameObject[] dropItems;
+    ScoreManager scoreManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +29,7 @@ public class EnemyStats : MonoBehaviour
         healthBar.maxValue = maxHealth;
         healthBar.value = maxHealth;
         pauseScript = FindAnyObjectByType<PauseScript>();
+        scoreManager = FindAnyObjectByType<ScoreManager>();
     }
 
     // Update is called once per frame
@@ -61,6 +65,7 @@ public class EnemyStats : MonoBehaviour
         {
             pauseScript.showWonPanel();
         }
+        scoreManager.GainScore(scoreAmount);
         DropItems();
         await Task.Delay(1000);
         gameObject.SetActive(false);
