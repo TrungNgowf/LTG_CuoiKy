@@ -430,6 +430,7 @@ MonoBehaviour:
   speedRun: 3.5
   jumpForce: 4
   armor: 5
+  scoreAmount: 5
   healthBar: {fileID: 0}
   dropItems: []
 --- !u!95 &6800344223949114800
