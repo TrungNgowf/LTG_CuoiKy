@@ -14,5 +14,11 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: 90e699a6980269845877bd8b1e67c006
+  - enabled: 1
+    path: Assets/Scenes/Hi-Score.unity
+    guid: acb3d77693881b04ba177f858cd3d5bd
+  - enabled: 1
+    path: Assets/Scenes/Instruction.unity
+    guid: 7aeb59b068a7eee4a8cb2e9847e22ebe
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

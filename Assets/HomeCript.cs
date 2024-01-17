@@ -22,5 +22,9 @@ public class HomeCript : MonoBehaviour
     {
         SceneManager.LoadScene("Options");
     }
+    public void Hi_score()
+    {
+        SceneManager.LoadScene("Hi-Score");
+    }
 
 }
